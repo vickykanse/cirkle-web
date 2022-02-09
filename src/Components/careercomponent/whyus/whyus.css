@@ -1,0 +1,41 @@
+.cm-why-us-section{padding:70px 0}
+.tabs li{display:inline-block;padding:0 0 14px;cursor:pointer;font-size:20px;font-weight:600;position:relative;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out;text-align:center;flex:0 0 20%;color:#444}
+.cm-why-us-section .tabs li:before{height:3px;background:#5cdb95}
+.tabs li.current:before{opacity:1;visibility:visible;width:100%;right:auto;left:0}
+.tabs li:before{content:"";position:absolute;height:2px;width:0;right:0;background:#038063;bottom:0;opacity:0;visibility:hidden;-webkit-transition:all .4s ease-in-out;transition:all .4s ease-in-out}
+.tabs li:hover:before{opacity:1;visibility:visible;width:100%;right:auto;left:0}
+.tabs{margin:0;padding:0;position:relative;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}
+.tab-content{display:none;padding:30px;box-shadow:0 8px 50px 0 rgba(0,0,0,0.1);position:relative;color:#121212}
+.cm-why-us-section .tabs{max-width:1000px;margin:0 auto 40px}
+.cm-why-us-section .tabs li{flex:0 0 25%;text-transform:uppercase;font-weight:500;letter-spacing:1px}
+.cm-why-us-section .tabs li:before{height:3px;background:#5cdb95}
+.cm-why-us-section .tabs li.current{color:#5cdb95}
+.cm-why-us-section .tab-content{margin:0;display:none;-webkit-transition:background 300ms ease-in-out;transition:background 300ms ease-in-out;background:#fff;-webkit-box-flex:1;-ms-flex:auto;flex:auto;-ms-flex-align:center;align-items:center;padding:0}
+.cm-why-us-section .tab-content.current{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.cm-why-us-section .tab-content .services-list__info{padding:40px 60px 40px 40px;-ms-flex-preferred-size:60%;width:100%;-webkit-box-flex:0;flex:0 0 60%;max-width:60%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.cm-why-us-section .tab-content .services-list__info .rich-text p{font-size:16px;line-height:1.58;letter-spacing:normal;margin-bottom:16px;color:#2e2e2e;width:100%}
+.cm-why-us-section .tab-content .services-list__info .rich-text ul li{font-size:16px;line-height:1.88;letter-spacing:normal;color:#2e2e2e;padding-left:0;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:start;align-items:flex-start;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap}
+.cm-why-us-section .tab-content .services-list__info .rich-text ul li:before{content:"";width:5px;height:5px;margin-right:16px;background-color:#5cdb95;display:block;margin-top:13px;-webkit-box-sizing:border-box;box-sizing:border-box;-ms-flex-negative:0;flex-shrink:0}
+.cm-why-us-section .tab-content .services-list__img{width:100%;-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;height:400px;background-size:cover;background-repeat:no-repeat;-ms-flex-preferred-size:40%;flex-basis:40%}
+@media only screen and (max-width: 1199px) {
+.cm-why-us-section .tab-content .services-list__img{height:385px}
+.cm-why-us-section .tab-content .services-list__info{padding:40px}
+.cm-why-us-section .tabs{margin:40px auto}
+}
+@media only screen and (max-width: 991px) {
+.cm-why-us-section .tabs li{font-weight:600;letter-spacing:0;font-size:16px}
+.cm-why-us-section .tabs{margin:10px auto 40px}
+}
+@media only screen and (max-width: 767px) {
+.cm-why-us-section .tab-content .services-list__info .rich-text p{margin-bottom:10px;line-height:1.5}
+.cm-why-us-section .tab-content .services-list__info{padding:20px}
+.cm-why-us-section .tabs li{font-size:14px}
+.cm-why-us-section{padding:40px 0}
+}
+@media only screen and (max-width: 575px) {
+.cm-why-us-section .tab-content .services-list__info{flex:0 0 100%;max-width:100%}
+.cm-why-us-section .tab-content .services-list__img{height:250px;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%;-ms-flex-preferred-size:100%;flex-basis:100%}
+.cm-why-us-section .tab-content.current{display:block}
+.cm-why-us-section .tabs li{font-size:16px;margin-bottom:12px}
+.cm-why-us-section .tabs{flex-direction:column;max-width:300px;margin:10px auto 20px}
+}

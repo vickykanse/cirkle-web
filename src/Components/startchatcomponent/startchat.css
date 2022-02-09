@@ -1,0 +1,272 @@
+.lets-start-btn {
+    position: fixed;
+    top: 25%;
+    right: 9px;
+    background: #5cdb95;
+    color: #111111;
+    z-index: 99;
+    height: 58px;
+    width: 58px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0 9px;
+    border: none;
+    box-sizing: border-box;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-shadow: 4px 4px #121212;
+    -moz-box-shadow: 4px 4px #121212;
+    box-shadow: 4px 4px #121212; }
+    @media only screen and (max-width: 767px) {
+      .lets-start-btn {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        right: 16px; } }
+    .lets-start-btn img {
+      margin-right: 10px;
+      width: 37px;
+      margin-left: 2px;
+      -webkit-transition: all ease-in-out 1s;
+      transition: all ease-in-out 1s;
+      flex-shrink: 0; }
+      @media only screen and (max-width: 767px) {
+        .lets-start-btn img {
+          margin-right: 15px;
+          width: 28px;
+          margin-left: 0px; } }
+    .lets-start-btn label {
+      -webkit-box-flex: 0;
+      flex: 0 0 auto;
+      cursor: pointer;
+      padding-right: 6px; }
+      @media only screen and (max-width: 767px) {
+        .lets-start-btn label {
+          font-size: 12px; } }
+    .lets-start-btn:hover {
+      width: 150px; }
+      @media only screen and (max-width: 767px) {
+        .lets-start-btn:hover {
+          width: 118px; } }
+      .lets-start-btn:hover img {
+        margin-left: 10px; }
+        @media only screen and (max-width: 767px) {
+          .lets-start-btn:hover img {
+            margin-left: 0px; } }
+  
+  @media only screen and (max-width: 767px) {
+    body.open .lets-start-btn,
+    body.open .share-wrapper,
+    .popup_active .share-wrapper,
+    .popup_active .lets-start-btn {
+      opacity: 0; } }
+  
+  .contact-page-main .share-wrapper {
+    bottom: 34px; }
+  
+  body.open .lets-start-btn,
+  body.open .share-wrapper,
+  .popup_active .lets-start-btn,
+  .popup_active .share-wrapper,
+  .menu_open .lets-start-btn,
+  .menu_open .share-wrapper,
+  .open_sidebar .share-wrapper,
+  .open_sidebar .lets-start-btn {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s; }
+
+    .cm_start_project_popup {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.8s ease-in-out;
+        transition: all 0.8s ease-in-out; }
+        .cm_start_project_popup .cm_inner_popup {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          width: 90%;
+          height: 90%;
+          margin: 0 auto;
+          top: 50%;
+          -webkit-transform: translate(0px, -160%);
+          transform: translate(0px, -160%);
+          background: #121212;
+          -webkit-box-shadow: 0 0 70px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 70px rgba(0, 0, 0, 0.7);
+          -webkit-transition: all 0.6s ease-in-out;
+          transition: all 0.6s ease-in-out;
+          overflow: auto; }
+          .cm_start_project_popup .cm_inner_popup .close-icon {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            right: 30px;
+            top: 30px;
+            cursor: pointer; }
+            @media only screen and (max-width: 575px) {
+              .cm_start_project_popup .cm_inner_popup .close-icon {
+                right: 0;
+                top: 24px; } }
+            .cm_start_project_popup .cm_inner_popup .close-icon span {
+              width: 100%;
+              height: 2px;
+              background: #ffffff;
+              display: block;
+              position: absolute;
+              top: 49%; }
+              .cm_start_project_popup .cm_inner_popup .close-icon span.cm_close_left_line {
+                -webkit-transform: rotate(-45deg);
+                transform: rotate(-45deg); }
+              .cm_start_project_popup .cm_inner_popup .close-icon span.cm_close_right_line {
+                -webkit-transform: rotate(45deg);
+                transform: rotate(45deg); }
+          .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main {
+            text-align: center; }
+            .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main h3 {
+              color: #5cdb95;
+              font-size: 32px;
+              padding: 30px 0px;
+              text-transform: uppercase; }
+              @media only screen and (max-width: 767px) {
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main h3 {
+                  font-size: 22px; } }
+            .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-align: center;
+              align-items: center;
+              -ms-flex-pack: center;
+              justify-content: center; }
+              .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a {
+                color: #ffffff;
+                font-size: 22px;
+                margin: 0px 40px;
+                position: relative;
+                padding: 10px 0px;
+                overflow: hidden;
+                -webkit-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out; }
+                @media only screen and (max-width: 767px) {
+                  .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a {
+                    font-size: 16px; } }
+                @media only screen and (max-width: 575px) {
+                  .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a {
+                    font-size: 15px;
+                    margin: 0px 8px 20px; } }
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a:before, .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a:after {
+                  content: "";
+                  position: absolute;
+                  bottom: 0px;
+                  width: 100%;
+                  right: 0;
+                  height: 2px;
+                  background: #ffffff;
+                  -webkit-transition: all 0.4s ease-in-out;
+                  transition: all 0.4s ease-in-out; }
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a:after {
+                  background: #5cdb95;
+                  left: -110%; }
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a:hover:before {
+                  right: -110%; }
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_popup_title_main .cm_contact_number a:hover:after {
+                  left: 0%; }
+          .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner {
+            padding: 30px 15px; }
+            @media only screen and (max-width: 1199px) {
+              .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner {
+                padding: 0 15px 30px 15px; } }
+            .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap {
+              width: 100%;
+              -webkit-flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+              flex-direction: column;
+              -ms-flex-align: center;
+              align-items: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              padding: 0px 30px; }
+              @media only screen and (max-width: 575px) {
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap {
+                  padding: 0px 15px; } }
+              .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev {
+                max-width: 90%;
+                margin: 0 auto;
+                padding: 10px 0px; }
+                @media only screen and (max-width: 768px) {
+                  .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev {
+                    max-width: 100%; } }
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev h6 {
+                  color: #5cdb95;
+                  font-size: 22px;
+                  text-transform: uppercase;
+                  padding: 10px; }
+                  @media only screen and (max-width: 1199px) {
+                    .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev h6 {
+                      padding: 0 0 10px 0; } }
+                  @media only screen and (max-width: 768px) {
+                    .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev h6 {
+                      font-size: 15px; } }
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev .cm_check_boxs {
+                  display: -webkit-box;
+                  display: -webkit-flex;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -webkit-flex-wrap: wrap;
+                  -ms-flex-wrap: wrap;
+                  flex-wrap: wrap; }
+                  .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev .cm_check_boxs .label--checkbox {
+                    width: 50%; }
+                    @media only screen and (max-width: 991px) {
+                      .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .call_us__formWrap .contact_us__siteDev .cm_check_boxs .label--checkbox {
+                        width: 100%; } }
+            .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .form-signin {
+              max-width: 100%; }
+              @media only screen and (max-width: 767px) {
+                .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .form-signin {
+                  padding: 0px 15px 0px; }
+                  .cm_start_project_popup .cm_inner_popup .cm_project_details .cm_project_details_inner .form-signin .btn_submit {
+                    height: 40px;
+                    max-width: 200px;
+                    min-width: 155px;
+                    font-size: 15px; } }
+        .cm_start_project_popup.popup_active {
+          opacity: 1;
+          visibility: visible; }
+          .cm_start_project_popup.popup_active .cm_inner_popup {
+            -webkit-transform: translate(0px, -50%);
+            transform: translate(0px, -50%); }
+body.popup_active
+{
+  overflow: hidden;
+}

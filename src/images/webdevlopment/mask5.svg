@@ -1,0 +1,74 @@
+<svg width="1440" height="335" viewBox="0 0 1440 335" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<g clip-path="url(#clip0)">
+		<circle opacity=".05" cx="253.055" cy="217.224" r="91.5" transform="rotate(-74.539 253.055 217.224)" stroke="#0057FF" />
+		<circle opacity=".05" cx="249.651" cy="212.65" r="167" transform="rotate(-74.539 249.651 212.65)" stroke="#0057FF" />
+		<circle opacity=".05" cx="249.651" cy="212.65" r="317" transform="rotate(-74.539 249.651 212.65)" stroke="#0057FF" />
+		<circle opacity=".1" cx="268.928" cy="46.493" r="6.646" transform="rotate(120.695 268.928 46.493)" fill="rgba(92, 219, 149, 0.6)" />
+		<circle opacity=".2" cx="268.928" cy="46.493" r="9.122" transform="rotate(120.695 268.928 46.493)" stroke="rgba(92, 219, 149, 0.6)" stroke-width=".954" />
+		<circle cx="268.928" cy="46.492" r="2.511" transform="rotate(120.695 268.928 46.492)" fill="#5cdb95" />
+		<circle opacity=".1" cx="313.587" cy="285.329" r="9.303" transform="rotate(120.695 313.587 285.329)" fill="rgba(92, 219, 149, 0.6)" />
+		<circle opacity=".2" cx="313.587" cy="285.329" r="12.961" transform="rotate(120.695 313.587 285.329)" stroke="rgba(92, 219, 149, 0.6)" stroke-width=".954" />
+		<circle cx="313.587" cy="285.329" r="3.515" transform="rotate(120.695 313.587 285.329)" fill="#5cdb95" />
+		<circle opacity=".1" cx="83.507" cy="195.453" r="6.646" transform="rotate(120.695 83.507 195.453)" fill="rgba(92, 219, 149, 0.6)" />
+		<circle opacity=".2" cx="83.507" cy="195.453" r="9.122" transform="rotate(120.695 83.507 195.453)" stroke="rgba(92, 219, 149, 0.6)" stroke-width=".954" />
+		<circle cx="83.507" cy="195.452" r="2.511" transform="rotate(120.695 83.507 195.452)" fill="#5cdb95" />
+		<circle opacity=".05" cx="1150.37" cy="205.199" r="90.148" transform="rotate(-2.583 1150.37 205.199)" stroke="#0057FF" />
+		<circle opacity=".05" cx="1153.61" cy="200.614" r="164.539" transform="rotate(-2.583 1153.61 200.614)" stroke="#0057FF" />
+		<circle opacity=".05" cx="1153.61" cy="200.614" r="312.335" transform="rotate(-2.583 1153.61 200.614)" stroke="#0057FF" />
+		<circle opacity=".1" cx="1119.02" cy="39.714" r="6.548" transform="rotate(-167.349 1119.02 39.714)" fill="rgba(92, 219, 149, 0.6)" />
+		<circle opacity=".2" cx="1119.02" cy="39.714" r="8.981" transform="rotate(-167.349 1119.02 39.714)" stroke="rgba(92, 219, 149, 0.6)" stroke-width=".954" />
+		<circle cx="1119.02" cy="39.714" r="2.474" transform="rotate(-167.349 1119.02 39.714)" fill="#5cdb95" />
+		<circle opacity=".1" cx="842.3" cy="177.3" r="6.548" transform="rotate(-167.349 842.3 177.3)" fill="rgba(92, 219, 149, 0.6)" />
+		<circle opacity=".2" cx="842.3" cy="177.3" r="8.981" transform="rotate(-167.349 842.3 177.3)" stroke="rgba(92, 219, 149, 0.6)" stroke-width=".954" />
+		<circle cx="842.3" cy="177.3" r="2.474" transform="rotate(-167.349 842.3 177.3)" fill="#5cdb95" />
+		<circle opacity=".1" cx="1105.04" cy="282.694" r="9.167" transform="rotate(-167.349 1105.04 282.694)" fill="rgba(92, 219, 149, 0.6)" />
+		<circle opacity=".2" cx="1105.04" cy="282.693" r="12.764" transform="rotate(-167.349 1105.04 282.693)" stroke="rgba(92, 219, 149, 0.6)" stroke-width=".954" />
+		<circle cx="1105.04" cy="282.694" r="3.463" transform="rotate(-167.349 1105.04 282.694)" fill="#5cdb95" />
+		<circle opacity=".1" cx="1389.22" cy="-5.023" r="8.255" transform="rotate(-167.349 1389.22 -5.023)" fill="rgba(92, 219, 149, 0.6)" />
+		<circle opacity=".2" cx="1389.22" cy="-5.022" r="11.447" transform="rotate(-167.349 1389.22 -5.022)" stroke="rgba(92, 219, 149, 0.6)" stroke-width=".954" />
+		<g opacity=".5" filter="url(#filter0_d)">
+			<rect x="1193" y="87" width="99" height="136" rx="8.361" fill="#121212" />
+		</g>
+		<rect x="981" y="175" width="163" height="45" rx="7.935" fill="#5cdb95" />
+		<rect x="770" y="-48" width="61" height="95" rx="7.935" fill="#5cdb95" />
+		<g opacity=".4" filter="url(#filter1_d)">
+			<rect x="818" y="30" width="37" height="37" rx="10" fill="#121212" />
+		</g>
+		<rect x="531" y="311" width="39" height="37" rx="7.935" fill="#5cdb95" />
+		<g opacity=".5" filter="url(#filter2_d)">
+			<rect x="-20" y="194" width="39" height="37" rx="8.361" fill="#121212" />
+		</g>
+	</g>
+	<defs>
+		<filter id="filter0_d" x="1153" y="67" width="179" height="216" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+			<feOffset dy="20" />
+			<feGaussianBlur stdDeviation="20" />
+			<feColorMatrix values="0 0 0 0 0.0324937 0 0 0 0 0.125015 0 0 0 0 0.310044 0 0 0 0.22 0" />
+			<feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+			<feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+		</filter>
+		<filter id="filter1_d" x="778" y="10" width="117" height="117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+			<feOffset dy="20" />
+			<feGaussianBlur stdDeviation="20" />
+			<feColorMatrix values="0 0 0 0 0.0324937 0 0 0 0 0.125015 0 0 0 0 0.310044 0 0 0 0.22 0" />
+			<feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+			<feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+		</filter>
+		<filter id="filter2_d" x="-60" y="174" width="119" height="117" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+			<feOffset dy="20" />
+			<feGaussianBlur stdDeviation="20" />
+			<feColorMatrix values="0 0 0 0 0.0324937 0 0 0 0 0.125015 0 0 0 0 0.310044 0 0 0 0.22 0" />
+			<feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+			<feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+		</filter>
+		<clipPath id="clip0">
+			<path fill="#121212" d="M0 0h1441v335H0z" />
+		</clipPath>
+	</defs>
+</svg>

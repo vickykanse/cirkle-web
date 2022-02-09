@@ -1,0 +1,214 @@
+.cm-hr-process-section {
+    position: relative;
+}
+.cm-hr-process-section .cm-section-title span.styled-span {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.cm-hr-process-section .cm-section-title h2 {
+    color: #ffffff;
+}
+.cm-hr-process-section .process-section-container {
+    padding: 80px 0;
+}
+
+.cm-hr-process-section .process-section-container ul {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 991px) {
+    .cm-hr-process-section .process-section-container ul {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+.cm-hr-process-section .process-section-container ul li {
+    width: calc((100% - 96px) / 5);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+}
+@media only screen and (max-width: 991px) {
+    .cm-hr-process-section .process-section-container ul li {
+        width: 33.3333%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-hr-process-section .process-section-container ul li {
+        padding: 0 0 20px;
+    }
+}
+.cm-hr-process-section .process-section-container ul li:after {
+    content: "";
+    position: absolute;
+    background: url("../../../images/career/arrow.svg") center center no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 10px;
+    top: 110px;
+    right: -24px;
+}
+@media only screen and (max-width: 991px) {
+    .cm-hr-process-section .process-section-container ul li:after {
+        top: 40px;
+        right: -10px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-hr-process-section .process-section-container ul li:after {
+        display: none;
+    }
+}
+.cm-hr-process-section .process-section-container ul li:last-of-type:after {
+    height: 0;
+}
+.cm-hr-process-section .process-section-container ul li .cm-hr-pro-box img {
+    max-width: 64px;
+    max-height: 64px;
+    width: auto;
+    display: block;
+    margin: 0 auto 24px;
+}
+@media only screen and (max-width: 1199px) {
+    .cm-hr-process-section .process-section-container ul li .cm-hr-pro-box img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+}
+.cm-hr-process-section .process-section-container ul li .cm-hr-pro-box h4 {
+    font-size: 17px;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.cm-hr-process-section .process-section-container ul li .cm-hr-pro-box p {
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    opacity: 0.8;
+    color: #ffffff;
+    margin: 0;
+    width: 100%;
+    font-weight: 400;
+}
+@media only screen and (max-width: 767px) {
+    .cm-hr-process-section .process-section-container ul li .cm-hr-pro-box {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+.cm-hr-process-section .process-section-container ul .slick-dots {
+    margin: 32px auto 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.cm-hr-process-section .process-section-container ul .slick-dots li {
+    padding: 0 !important;
+    display: inline-block;
+    margin: 0 3px;
+    width: auto;
+}
+.cm-hr-process-section .process-section-container ul .slick-dots li button {
+    background: #ffffff;
+    border: 0;
+    outline: none;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 100%;
+    font-size: 0;
+    display: block;
+}
+.cm-hr-process-section .process-section-container ul .slick-dots li.slick-active button {
+    background: #5cdb95;
+}
+.cm-hr-process-steps.slick-slider li
+{
+  text-align:center;
+}
+.cm-hr-process-steps.slick-slider .cm-hr-pro-box img
+{
+ max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto 24px;
+}
+.cm-hr-process-steps.slick-slider .cm-hr-pro-box h4 {
+    font-size: 17px;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.cm-hr-process-steps.slick-slider .cm-hr-pro-box p
+{
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    opacity: 0.8;
+    color: #ffffff;
+    margin: 0;
+    width: 100%;
+    font-weight: 400;
+}
+.cm-hr-process-steps  ul.slick-dots {
+    margin: 32px auto 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.cm-hr-process-steps  ul.slick-dots li {
+    padding: 0 !important;
+    display: inline-block;
+    margin: 0 3px;
+    width: auto;
+}
+.cm-hr-process-steps  ul.slick-dots li button {
+    background: #ffffff;
+    border: 0;
+    outline: none;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 100%;
+    font-size: 0;
+    display: block;
+}
+.cm-hr-process-steps  ul.slick-dots li button::before
+{
+    content: "";
+    display:none;
+}
+.cm-hr-process-steps  ul.slick-dots li.slick-active button {
+    background: #5cdb95;
+}
+.cm-hr-process-steps .slick-arrow
+{
+  display:none !important;
+}

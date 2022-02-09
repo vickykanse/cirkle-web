@@ -1,0 +1,1094 @@
+.cm-app-portfolio {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.cm-app-portfolio .home-portfolio {
+    position: relative;
+    padding: 20% 0 25%;
+    height: 112vh;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio {
+        padding: 0;
+        height: auto;
+        display: block;
+        width: 100%;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip {
+    clip: rect(auto, auto, auto, auto);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        clip: inherit;
+        height: auto;
+        position: relative;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .container {
+    height: 100%;
+    width: 50%;
+    background: #ffffff;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container {
+        width: 100%;
+        background-color: #5cdb95;
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .three-giffy {
+    opacity: 0.3;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container .three-giffy {
+        display: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .gify-c {
+    position: absolute;
+    max-width: 350px;
+    top: 50%;
+    left: 4%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    opacity: 0.4;
+}
+@media only screen and (max-width: 767px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container .gify-c {
+        max-width: 250px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container .gify-c {
+        display: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .portfolio-right {
+    width: 370px;
+    position: absolute;
+    bottom: 570px;
+    right: 0;
+    color: #ffffff;
+    text-align: center;
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper {
+    width: 265px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    top: 50%;
+    margin: auto;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+@media only screen and (max-width: 767px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper {
+        width: 210px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper {
+        position: relative;
+        top: 0;
+        margin: auto;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper .mobile-frame {
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper .mobile-frame img {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    border-radius: 26px;
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper .mobile-video {
+    position: absolute;
+    width: 240px;
+    height: 500px;
+    top: 9px;
+    left: 12px;
+    z-index: -1;
+}
+@media only screen and (max-width: 767px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper .mobile-video {
+        height: 397px;
+        top: 6px;
+        left: 10px;
+        z-index: -1;
+        width: 190px;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper .mobile-video video {
+    width: 100%;
+}
+.cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper .mobile-video img {
+    width: 100%;
+    height: 100%;
+    -webkit-border-radius: 26px;
+    -moz-border-radius: 26px;
+    border-radius: 26px;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .container .mobile_wrapper .mobile-video img {
+        -webkit-border-radius: 23px;
+        -moz-border-radius: 23px;
+        border-radius: 23px;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 17.5%;
+    color: #ffffff;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+@media only screen and (min-width: 2000px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left {
+        width: 16%;
+        left: 22.5%;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left {
+        left: 6%;
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left {
+        left: 2%;
+        width: 28%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left {
+        position: relative;
+        width: 100%;
+        left: 0;
+        right: 0;
+        transform: none;
+        top: auto;
+        padding: 30px 15px 0;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left p {
+    line-height: 26px;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left ul {
+    margin: 20px 0 0;
+    padding: 0;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left ul li {
+    list-style-type: square;
+    margin-left: 15px;
+    margin-bottom: 8px;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .company-portfolio-left-info-box {
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .company-portfolio-left-info-box {
+        float: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info-head {
+    width: 100%;
+    float: left;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info-head {
+        float: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .logo-head-wrp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .logo-head-wrp {
+        justify-content: center;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-logo,
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-logo1,
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-logo2 {
+    width: 22%;
+    margin: 0 15px 0 0;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-logo,
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-logo1,
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-logo2 {
+        width: 15%;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper {
+    width: 70%;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper {
+        width: auto;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper h2 {
+    color: #000000;
+    font-size: 22px;
+    margin: 0;
+}
+@media only screen and (max-width: 767px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper h2 {
+        font-size: 15px;
+        margin: 0 0 10px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper h2 {
+        text-align: left;
+        font-size: 20px;
+        margin: 0 0 4px;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper h2:before {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #b5f7d2;
+    display: block;
+    margin-bottom: 4px;
+    position: relative;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper h2:before {
+        background-color: #121212;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper p {
+    color: #5cdb95 !important;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper p {
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 0;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-content-wraper p {
+        color: #121212 !important;
+        font-size: 14px;
+        text-align: left;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info {
+    width: 100%;
+    float: left;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info {
+        float: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info p {
+    color: #000000;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 0 70px;
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info p {
+        text-align: center;
+        margin: 0 0 30px;
+        font-size: 16px;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info p span {
+    font-size: 20px;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .portfolio-info .btn.portfolio-btn {
+    padding: 12px 35px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -o-border-radius: 9px;
+    border-radius: 9px;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .right-poin-text-wraper {
+    left: 0;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .right-poin-text-wraper .point-text-wraper {
+    background-image: url("../../../images/appdevelopment/check-green.png");
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .right-poin-text-wraper .point-text-wraper p {
+    color: #000000;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .right-poin-text-wraper .point-text-wraper:after {
+    background-color: #000000;
+}
+.cm-app-portfolio .home-portfolio .project-clip .portfolio-left .right-poin-text-wraper .app-download-link-wraper li {
+    background-color: #5cdb95;
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    left: 190px;
+}
+@media only screen and (min-width: 2000px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1350px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+        left: 219px;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+        left: 219px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+        width: 58%;
+        left: 170px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+        left: 39%;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+        width: 53%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper .company-portfolio-left-info-box {
+        width: 100%;
+        left: 0;
+        right: 0;
+        position: relative;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        transform: none;
+        top: auto;
+    }
+}
+.cm-app-portfolio
+    .home-portfolio
+    .project-clip
+    .right-portfolio-wraper
+    .company-portfolio-left-info-box
+    .portfolio-content-wraper
+    h2 {
+    color: #ffffff;
+}
+.cm-app-portfolio
+    .home-portfolio
+    .project-clip
+    .right-portfolio-wraper
+    .company-portfolio-left-info-box
+    .portfolio-info
+    p {
+    color: #ffffff;
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wraper {
+        width: 100%;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    left: 190px;
+}
+@media only screen and (max-width: 1350px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper {
+        left: 219px;
+    }
+}
+@media only screen and (min-width: 1350px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper {
+        left: 219px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper {
+        left: 170px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper {
+        left: 39%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper {
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        top: auto;
+        transform: none;
+        width: 100%;
+        display: block;
+        height: auto;
+        float: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper {
+    width: 100%;
+    float: left;
+    background-image: url("../../../images/appdevelopment/check.png");
+    background-repeat: no-repeat;
+    padding: 0 0 0 30px;
+    margin: 0 0 50px 0;
+    position: relative;
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper {
+        padding: 0 0 0 26px;
+        margin: 15px 0 45px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper {
+        display: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper:after {
+    content: "";
+    width: 85px;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    left: 0;
+    margin: 20px 0 0 0;
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper:after {
+        margin: 10px 0 0 0;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper p {
+    font-size: 22px;
+    color: #ffffff;
+}
+@media only screen and (max-width: 1199px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .point-text-wraper p {
+        font-size: 15px;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper {
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper {
+        float: none;
+        margin: 30px auto;
+        text-align: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper li {
+    list-style: none;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    margin: 12px 12px 0 0;
+    display: table;
+    cursor: pointer;
+}
+@media only screen and (max-width: 767px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper li {
+        width: 51px;
+        height: 51px;
+        margin: 0 5px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper li {
+        display: inline-block;
+        float: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper li a {
+    display: table-cell !important;
+    vertical-align: middle;
+    text-align: center;
+    color: #041340;
+    font-size: 35px;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper li a {
+        display: block !important;
+        vertical-align: middle;
+        text-align: center;
+        color: #041340;
+        font-size: 35px;
+        width: 51px;
+        height: 51px;
+        line-height: 53px;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-poin-text-wraper .app-download-link-wraper li a img {
+    height: 30px;
+    width: 30px;
+}
+.cm-app-portfolio
+    .home-portfolio
+    .project-clip
+    .right-poin-text-wraper
+    .app-download-link-wraper
+    li
+    .app-download-link2 {
+    color: #008fa8;
+}
+.cm-app-portfolio
+    .home-portfolio
+    .project-clip
+    .right-poin-text-wraper
+    .app-download-link-wraper
+    li
+    .app-download-link3 {
+    color: #00163f;
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap1 {
+    background-color: #5cdb95;
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap1:before {
+    content: "";
+    content: "";
+    -webkit-animation: rotate 20s linear infinite;
+    -moz-animation: rotate 20s linear infinite;
+    -ms-animation: rotate 20s linear infinite;
+    -o-animation: rotate 20s linear infinite;
+    animation: rotate 20s linear infinite;
+    position: absolute;
+    top: -22%;
+    right: -19%;
+    font-size: 320px;
+    width: 1em;
+    height: 1em;
+    background: url("../../../images/appdevelopment/gear1.png") 50% no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap1:before {
+        display: none;
+    }
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap2 {
+    background-color: #121212;
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap3 {
+    background-color: #5cdb95;
+}
+@media only screen and (max-width: 767px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap3 .right-poin-text-wraper {
+        width: 60%;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap3:before {
+    content: "";
+    -webkit-animation: rotate 20s linear infinite;
+    -moz-animation: rotate 20s linear infinite;
+    -ms-animation: rotate 20s linear infinite;
+    -o-animation: rotate 20s linear infinite;
+    animation: rotate 20s linear infinite;
+    position: absolute;
+    top: -22%;
+    right: -19%;
+    font-size: 320px;
+    width: 1em;
+    height: 1em;
+    background: url("../../../images/appdevelopment/gear1.png") 50% no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap3:before {
+        display: none;
+    }
+}
+.cm-app-portfolio .home-portfolio .project-clip .right-portfolio-wrap4 {
+    background-color: #121212;
+}
+
+.cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .container * {
+    color: #ffffff !important;
+}
+
+.cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .right-portfolio-wraper .bg-c {
+    display: inline-block;
+    vertical-align: top;
+    background-image: url("../../../images/appdevelopment/fl-char-bg.jpg");
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    -webkit-animation: bg-animation 60s linear infinite;
+    animation: bg-animation 60s linear infinite;
+    font-size: 320px;
+    position: absolute;
+    right: 0;
+    font-weight: 700;
+    bottom: -50px;
+    opacity: 0.5;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .right-portfolio-wraper .bg-c {
+        display: none;
+    }
+}
+
+.cm-app-portfolio .home-portfolio:nth-child(1) .project-clip .container:before {
+    content: "";
+    -webkit-animation: rotate 20s linear infinite;
+    -moz-animation: rotate 20s linear infinite;
+    -ms-animation: rotate 20s linear infinite;
+    -o-animation: rotate 20s linear infinite;
+    animation: rotate 20s linear infinite;
+    position: absolute;
+    bottom: -22%;
+    left: -10%;
+    font-size: 320px;
+    width: 1em;
+    height: 1em;
+    background: url("../../../images/appdevelopment/gear.png") 50% no-repeat;
+    background-size: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio:nth-child(1) .project-clip .container:before {
+        display: none;
+    }
+}
+
+.cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .container {
+    background: #121212;
+    z-index: 1;
+}
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .container {
+        background: #ffffff;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        order: 2;
+    }
+}
+
+.cm-app-portfolio
+    .home-portfolio:nth-child(even)
+    .project-clip
+    .portfolio-left
+    .right-poin-text-wraper
+    .point-text-wraper:after {
+    background-color: #5cdb95 !important;
+}
+
+.cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .right-portfolio-wraper * {
+    color: #121212 !important;
+}
+
+.cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .right-portfolio-wraper {
+    background-color: #ffffff;
+}
+
+.home-portfolio:nth-child(4) .right-portfolio-wraper,
+.home-portfolio:nth-child(2) .right-portfolio-wraper {
+    left: 0 !important;
+}
+
+@media only screen and (max-width: 575px) {
+    .cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .container .mobile_wrapper {
+        order: 1;
+    }
+    .cm-app-portfolio .home-portfolio:nth-child(even) .project-clip .container .portfolio-left {
+        order: 2;
+        padding-top: 0;
+    }
+}
+.oval-one {
+    position: absolute;
+    right: 5%;
+    top: 26%;
+    -webkit-animation: jump 8s infinite linear;
+    animation: jump 8s infinite linear;
+}
+
+.shape-three {
+    position: absolute;
+    top: 21%;
+    right: 22%;
+    -webkit-animation: animationFramesTwo 13s infinite linear;
+    animation: animationFramesTwo 13s infinite linear;
+}
+
+.shape-four {
+    position: absolute;
+    top: 27%;
+    left: 7%;
+    -webkit-animation: animationFramesFour 25s alternate infinite linear;
+    animation: animationFramesFour 25s alternate infinite linear;
+}
+
+.shape-five {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-animation: animationFramesThree 35s alternate infinite linear;
+    animation: animationFramesThree 35s alternate infinite linear;
+}
+
+.shape-six {
+    position: absolute;
+    top: 70%;
+    right: 3%;
+    -webkit-animation: animationFramesFour 20s alternate infinite linear;
+    animation: animationFramesFour 20s alternate infinite linear;
+}
+
+.shape-seven {
+    position: absolute;
+    bottom: 2%;
+    right: 28%;
+    -webkit-animation: animationFramesOne 15s infinite linear;
+    animation: animationFramesOne 15s infinite linear;
+}
+
+.shape-eight {
+    position: absolute;
+    bottom: 3%;
+    left: 38%;
+    -webkit-animation: animationFramesFour 20s alternate infinite linear;
+    animation: animationFramesFour 20s alternate infinite linear;
+}
+
+.shape-nine {
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+    -webkit-animation: animationFramesOne 17s infinite linear;
+    animation: animationFramesOne 17s infinite linear;
+}
+
+.shape-ten {
+    position: absolute;
+    top: 60%;
+    left: 4%;
+    width: 50px;
+    -webkit-animation: animationFramesOne 20s alternate infinite linear;
+    animation: animationFramesOne 20s alternate infinite linear;
+}
+
+.shape-eleven {
+    position: absolute;
+    top: 22%;
+    left: 41%;
+    -webkit-animation: animationFramesOne 15s infinite linear;
+    animation: animationFramesOne 15s infinite linear;
+}
+.service-block {
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    height: 100%;
+}
+svg.t7-waves {
+    bottom: 26px;
+    position: absolute;
+}
+@keyframes animationFramesOne {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    20% {
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+    40% {
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+    60% {
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+@-webkit-keyframes animationFramesOne {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+    }
+    40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+    }
+    60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+    }
+    80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+@keyframes animationFramesTwo {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+    }
+    20% {
+        transform: translate(73px, -1px) rotate(36deg) scale(0.9);
+    }
+    40% {
+        transform: translate(141px, 72px) rotate(72deg) scale(1);
+    }
+    60% {
+        transform: translate(83px, 122px) rotate(108deg) scale(1.2);
+    }
+    80% {
+        transform: translate(-40px, 72px) rotate(144deg) scale(1.1);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(0deg) scale(1);
+    }
+}
+@-webkit-keyframes animationFramesTwo {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg) scale(1);
+    }
+    20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg) scale(0.9);
+    }
+    40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg) scale(1);
+    }
+    60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg) scale(1.2);
+    }
+    80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg) scale(1.1);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg) scale(1);
+    }
+}
+@keyframes animationFramesThree {
+    0% {
+        transform: translate(165px, -179px);
+    }
+    100% {
+        transform: translate(-346px, 617px);
+    }
+}
+@-webkit-keyframes animationFramesThree {
+    0% {
+        -webkit-transform: translate(165px, -179px);
+    }
+    100% {
+        -webkit-transform: translate(-346px, 617px);
+    }
+}
+@keyframes animationFramesFour {
+    0% {
+        transform: translate(-300px, 151px) rotate(0deg);
+    }
+    100% {
+        transform: translate(251px, -200px) rotate(180deg);
+    }
+}
+@-webkit-keyframes animationFramesFour {
+    0% {
+        -webkit-transform: translate(-300px, 151px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translate(251px, -200px) rotate(180deg);
+    }
+}
+@keyframes animationFramesFive {
+    0% {
+        transform: translate(61px, -99px) rotate(0deg);
+    }
+    21% {
+        transform: translate(4px, -190px) rotate(38deg);
+    }
+    41% {
+        transform: translate(-139px, -200px) rotate(74deg);
+    }
+    60% {
+        transform: translate(-263px, -164px) rotate(108deg);
+    }
+    80% {
+        transform: translate(-195px, -49px) rotate(144deg);
+    }
+    100% {
+        transform: translate(-1px, 0px) rotate(180deg);
+    }
+}
+@-webkit-keyframes animationFramesFive {
+    0% {
+        -webkit-transform: translate(61px, -99px) rotate(0deg);
+    }
+    21% {
+        -webkit-transform: translate(4px, -190px) rotate(38deg);
+    }
+    41% {
+        -webkit-transform: translate(-139px, -200px) rotate(74deg);
+    }
+    60% {
+        -webkit-transform: translate(-263px, -164px) rotate(108deg);
+    }
+    80% {
+        -webkit-transform: translate(-195px, -49px) rotate(144deg);
+    }
+    100% {
+        -webkit-transform: translate(-1px, 0px) rotate(180deg);
+    }
+}
+@keyframes one-animated {
+    0% {
+        -webkit-border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+        -moz-border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+        border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.65);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.65);
+        box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.65);
+    }
+    25% {
+        -webkit-border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+        -moz-border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+        border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+        -webkit-border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+        -moz-border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+        border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.65);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.65);
+        box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.65);
+    }
+    75% {
+        -webkit-border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+        -moz-border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+        border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+}

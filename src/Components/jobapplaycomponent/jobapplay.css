@@ -1,0 +1,33 @@
+.job-apply-page-main .inner-page-title .header__text h2{font-size:90px}
+.job-descrition-detail{padding:70px 0;overflow:unset!important}
+.job-descrition-detail .apply-job-form-wrapper .form-signin{width:100%;max-width:100%;padding:60px;background:#121212}
+.job-descrition-detail .apply-job-form-wrapper .form-signin .form-label-group.file-upload{border-bottom:2px solid #dadada}
+.job-descrition-detail .apply-job-form-wrapper .form-signin .form-label-group.file-upload input{color:transparent;opacity:0;z-index:999;position:relative}
+.job-descrition-detail .col-4{position:sticky;position:-webkit-sticky;position:-moz-sticky;position:-ms-sticky;position:-o-sticky;top:100px;display:inline-table}
+.job-descrition-detail .job-description-wrapper{padding-right:100px}
+.job-descrition-detail .job-description-wrapper *{color:#121212}
+.job-descrition-detail .job-description-wrapper h3{font-size:27px;font-weight:600;margin-bottom:25px}
+.job-descrition-detail .job-description-wrapper p{font-size:18px;margin-bottom:30px}
+.job-descrition-detail .job-description-wrapper ul{margin-bottom:30px}
+.job-descrition-detail .job-description-wrapper ul li{font-size:18px;font-weight:400;line-height:2;letter-spacing:normal;position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:start;align-items:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap}
+.job-descrition-detail .job-description-wrapper ul li:before{content:"";width:5px;height:5px;margin-right:16px;background-color:#5cdb95;display:block;margin-top:15px;-webkit-box-sizing:border-box;box-sizing:border-box;-ms-flex-negative:0;flex-shrink:0}
+@media only screen and (max-width: 1440px) {
+.job-descrition-detail .big-container{max-width:100%;padding:0 15px}
+}
+@media only screen and (max-width: 1199px) {
+.job-descrition-detail .job-description-wrapper h3{font-size:24px}
+.job-descrition-detail .job-description-wrapper{padding-right:15px}
+.job-descrition-detail .col-4{display:block}
+.job-descrition-detail .apply-job-form-wrapper .form-signin{padding:20px 15px}
+}
+@media only screen and (max-width: 767px) {
+.job-descrition-detail .col-4{max-width:100%;-ms-flex:0 0 50%;flex:0 0 50%}
+.job-descrition-detail .col-8{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.job-descrition-detail{padding:40px 0}
+.job-apply-page-main .inner-page-title .header__text h2{font-size:36px}
+}
+@media only screen and (max-width: 575px) {
+.job-descrition-detail .job-description-wrapper ul li:before{margin-top:7px}
+.job-descrition-detail .job-description-wrapper ul li{font-size:16px;line-height:normal;margin-bottom:10px}
+.job-descrition-detail .col-4{-ms-flex:0 0 100%;flex:0 0 100%}
+}

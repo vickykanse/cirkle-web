@@ -1,0 +1,112 @@
+.cm-design-stages {
+    padding: 0 0 60px;
+    position: relative;
+}
+@media only screen and (max-width: 767px) {
+    .cm-design-stages {
+        padding: 40px 0 20px;
+    }
+}
+.cm-design-stages .cm-design-stages-inner-content {
+    color: #121212;
+}
+.cm-design-stages .cm-design-stages-inner-content h2 {
+    font-size: 40px;
+    color: #5cdb95;
+    padding-bottom: 35px;
+    position: absolute;
+    left: 0;
+    max-width: 36%;
+    text-align: left;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-design-stages .cm-design-stages-inner-content h2 {
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-design-stages .cm-design-stages-inner-content h2 {
+        position: relative;
+        left: 0;
+        padding-bottom: 15px;
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-design-stages .cm-design-stages-inner-content h2 {
+        font-size: 28px;
+    }
+}
+.cm-design-stages .cm-design-stages-inner-content h2:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background: #121212;
+    bottom: 0;
+    left: 0;
+    right: auto;
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper {
+    width: 60%;
+    margin-top: 50px;
+    margin-left: auto;
+}
+@media only screen and (max-width: 767px) {
+    .cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: auto;
+        padding-left: 10px;
+    }
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li {
+    width: 50%;
+    padding: 30px 60px;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li {
+        padding: 20px 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li {
+        width: 1000%;
+    }
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li .cm-stage-number {
+    display: inline-block;
+    margin-left: -30px;
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li .cm-stage-number span {
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    color: #5cdb95;
+    opacity: 0.6;
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li .cm-stage-content {
+    margin-top: 10px;
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li .cm-stage-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li .cm-stage-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+@media only screen and (max-width: 991px) {
+    .cm-design-stages .cm-design-stages-inner-content .cm-design-stages-wrapper ul li .cm-stage-content p {
+        font-size: 14px;
+    }
+}

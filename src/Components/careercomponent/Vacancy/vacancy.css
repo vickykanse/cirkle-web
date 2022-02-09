@@ -1,0 +1,62 @@
+.cm-vacancies-section{padding:70px 0}
+.cm-section-title h2.black{color:#121212}
+.cm-vacancies-section .cm-section-title h2{letter-spacing:2px;text-transform:capitalize;font-weight:500;font-size:36px}
+.cm-vacancies-section .cm-career-list .cm-career-list-col{padding:0 15px}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner{position:relative;margin-bottom:30px;cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-align:start;align-items:flex-start;padding:32px;background-color:#fff;-webkit-box-shadow:0 8px 40px 0 rgba(62,102,43,0.12);box-shadow:0 8px 40px 0 rgba(62,102,43,0.12);-webkit-transition:background-color .3s ease-in-out,-webkit-box-shadow .3s ease-in-out;transition:background-color .3s ease-in-out,-webkit-box-shadow .3s ease-in-out;transition:box-shadow .3s ease-in-out,background-color .3s ease-in-out;transition:box-shadow .3s ease-in-out,background-color .3s ease-in-out,-webkit-box-shadow .3s ease-in-out}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner h3{font-weight:700;margin-bottom:16px;font-size:20px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;color:#2e2e2e;-webkit-transition:color .3s ease-in-out;transition:color .3s ease-in-out;color:#121212}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner h3 img{height:16px;margin-right:15px}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner h3 i{margin-right:15px;color:#ff5722}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner p{font-size:15px;line-height:1.5;color:#757575;-webkit-transition:color .3s ease-in-out;transition:color .3s ease-in-out;width:100%}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner .cm-career-footer{margin:20px 0 0;position:relative;width:100%;-ms-flex-pack:justify;justify-content:space-between}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner .cm-career-footer .cm-address p{color:#121212}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner .cm-career-footer .cm-address p svg{margin-right:5px;height:14px;width:auto;display:inline-block;vertical-align:middle}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner:hover .cm-career-footer .cm-address p svg{fill: #fff;}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner .cm-career-footer .cm-join-btn p{text-transform:uppercase;color:#121212}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner .cm-career-footer .cm-join-btn p i{margin-left:8px}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner:hover{background:#121212}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner:hover h3{color:#5cdb95}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner:hover p{color:#fff}
+.cm-vacancies-section
+.cm-career-list
+.cm-career-list-col
+.cm-career-list-col-inner:hover
+.cm-career-footer
+.cm-join-btn
+p,.cm-vacancies-section
+.cm-career-list
+.cm-career-list-col
+.cm-career-list-col-inner:hover
+.cm-career-footer
+.cm-address
+p{color:#fff}
+.cm-vacancies-section
+.cm-career-list
+.cm-career-list-col
+.cm-career-list-col-inner:hover
+.cm-career-footer
+.cm-join-btn
+p
+i,.cm-vacancies-section
+.cm-career-list
+.cm-career-list-col
+.cm-career-list-col-inner:hover
+.cm-career-footer
+.cm-address
+p
+i{color:#5cdb95}
+@media only screen and (max-width: 1440px) {
+.cm-vacancies-section .cm-section-title h2{font-size:26px}
+}
+@media only screen and (max-width: 991px) {
+.cm-vacancies-section .cm-career-list .cm-career-list-col{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.cm-vacancies-section .cm-section-title h2{font-size:20px;padding-right:14px}
+.cm-vacancies-section .cm-section-title h2 br{display:none}
+}
+@media only screen and (max-width: 767px) {
+.cm-vacancies-section{padding:40px 0}
+}
+@media only screen and (max-width: 575px) {
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner h3{font-size:16px}
+.cm-vacancies-section .cm-career-list .cm-career-list-col .cm-career-list-col-inner{padding:15px;margin-bottom:15px}
+.cm-vacancies-section .cm-career-list .cm-career-list-col{padding:0}
+}

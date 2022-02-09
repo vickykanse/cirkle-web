@@ -1,0 +1,99 @@
+.app-services-main {
+    padding: 60px 0px;
+    color: #121212;
+}
+@media only screen and (max-width: 767px) {
+    .app-services-main {
+        padding: 40px 0px 20px;
+    }
+}
+.app-services-main .cm-section-title {
+    padding-bottom: 50px;
+}
+@media only screen and (max-width: 767px) {
+    .app-services-main .cm-section-title {
+        padding-bottom: 30px;
+    }
+}
+.app-services-main .app-service-inner-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+.app-services-main .app-service-inner-wrap .mobile-mockup-img {
+    width: 20%;
+    animation: movebounce 3.9s linear infinite;
+}
+@media only screen and (max-width: 575px) {
+    .app-services-main .app-service-inner-wrap .mobile-mockup-img {
+        display: none;
+    }
+}
+.app-services-main .app-service-inner-wrap .cm-service-details {
+    width: 60%;
+}
+@media only screen and (max-width: 575px) {
+    .app-services-main .app-service-inner-wrap .cm-service-details {
+        width: 100%;
+    }
+}
+.app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li {
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+@media only screen and (max-width: 767px) {
+    .app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li {
+        padding: 10px 6px;
+    }
+}
+.app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li .app-info-icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+}
+.app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li .app-info-icon svg path {
+    fill: #121212;
+}
+.app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li h4 {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+@media only screen and (max-width: 575px) {
+    .app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li h4 {
+        font-size: 15px;
+        padding: 15px 0px;
+    }
+}
+.app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+@media only screen and (max-width: 1366px) {
+    .app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .app-services-main .app-service-inner-wrap .cm-service-details .app-service-details ul li p {
+        font-size: 12px;
+    }
+}

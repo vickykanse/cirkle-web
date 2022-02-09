@@ -1,0 +1,24 @@
+.cm_side_logo.cm_inner_page_bottom{width:100%;height:60px;border:0;border-top:1px solid #e6e6e6;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;padding:0 20px;background:rgba(255,255,255,0.9);-webkit-transition:all .2s cubic-bezier(0.4,0,1,1);transition:all .2s cubic-bezier(0.4,0,1,1)}
+.cm_side_logo.cm_inner_page_bottom .cm_inner_logo a{transform:none;position:static;font-size:18px;text-transform:uppercase}
+.cm_side_logo.cm_inner_page_bottom .cm-social-media{position:static;margin:0;width:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+.cm_side_logo.cm_inner_page_bottom .cm-social-media .social-icon{margin:5px}
+.cm_side_logo.cm_inner_page_bottom.scrollUp{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}
+.cm_side_logo{position:fixed;z-index:8;height:100%;width:3.5%;border-right:1px solid #e6e6e6;-webkit-transition:all .5s cubic-bezier(0.4,0,1,1);transition:all .5s cubic-bezier(0.4,0,1,1);bottom:0;left:0;color:#121212}
+.cm_side_logo.cm_left_side_bar:before{content:"";position:absolute;height:100%;width:100%;background:#121212;left:-100%;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+.cm_side_logo.cm_left_side_bar:hover:before{left:0}
+.cm_side_logo.cm_left_side_bar:hover .cm_inner_logo a{color:#fff}
+.cm_side_logo.cm_left_side_bar:hover .cm-social-media .social-icon a svg path{fill:#fff}
+.cm_side_logo .cm_inner_logo a{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);white-space:nowrap;position:absolute;left:0;top:50%;right:0;font-size:28px;letter-spacing:1px;font-weight:700;color:currentColor;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}
+.cm_side_logo .cm_inner_logo a p{padding-left:10px;font-weight:400}
+.cm_side_logo .cm-social-media{position:absolute;right:0;bottom:20px;left:0;width:40px;margin:0 auto;display:none}
+.cm_side_logo .cm-social-media .social-icon{margin:10px auto}
+.cm_side_logo .cm-social-media .social-icon .icon-inner a svg path{fill:#000}
+.cm_side_logo.cm_right_side_bar{right:0;left:auto;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border-left:1px solid #e6e6e6}
+.cm_side_logo.cm_right_side_bar .cm_inner_logo{top:auto;font-size:20px;text-transform:uppercase;display:block;letter-spacing:0;position:absolute;left:50%;bottom:100px;-webkit-transform:translate(-50%,0) rotate(90deg);transform:translate(-50%,0) rotate(90deg)}
+.cm_side_logo.cm_right_side_bar .cm_inner_logo a{-webkit-transform:rotate(0deg);transform:rotate(0deg);font-size:20px;text-transform:uppercase;display:block;letter-spacing:0;position:relative;left:0;right:0;top:0;border:0;letter-spacing:1px;font-weight:400}
+.fp-viewing-4 .cm_left_side_bar:hover:before,.fp-viewing-2 .cm_left_side_bar:hover:before{background:#fff}
+.fp-viewing-4 .cm_left_side_bar:hover .cm_inner_logo a,.fp-viewing-2 .cm_left_side_bar:hover .cm_inner_logo a{color:#121212}
+.fp-viewing-4 .cm_left_side_bar:hover .cm-social-media .social-icon .icon-inner a svg path,.fp-viewing-2 .cm_left_side_bar:hover .cm-social-media .social-icon .icon-inner a svg path{fill:#121212}
+@media only screen and (max-width: 1199px) {
+.cm_side_logo{display:none}
+}

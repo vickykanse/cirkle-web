@@ -1,0 +1,269 @@
+.ios-service {
+    padding: 60px 0px;
+    background: #121212;
+    overflow: hidden;
+    position: relative;
+}
+@media only screen and (max-width: 767px) {
+    .ios-service {
+        padding: 40px 0px 20px;
+    }
+}
+.ios-service .app-ios-big-text {
+    position: absolute;
+    bottom: -3%;
+    left: 20%;
+}
+.ios-service .app-ios-big-text .big-background-letter {
+    position: static;
+}
+.ios-service .app-ios-big-text .big-background-letter span {
+    opacity: 0.2;
+    position: static;
+}
+.ios-service .app-ios-big-text .big-background-letter span svg {
+    width: 350px;
+    height: 350px;
+    opacity: 0.05;
+}
+.ios-service .app-ios-big-text .big-background-letter span svg path {
+    fill: #ffffff;
+}
+.ios-service .ios-service-details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1248px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.ios-service .ios-service-details .ios-service-title {
+    width: 35%;
+}
+@media only screen and (max-width: 1366px) {
+    .ios-service .ios-service-details .ios-service-title {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-title {
+        width: 100%;
+    }
+}
+.ios-service .ios-service-details .ios-service-title h4 {
+    font-size: 75px;
+    color: #5cdb95;
+}
+@media only screen and (max-width: 991px) {
+    .ios-service .ios-service-details .ios-service-title h4 {
+        font-size: 52px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .ios-service .ios-service-details .ios-service-title h4 {
+        font-size: 40px;
+    }
+}
+.ios-service .ios-service-details .ios-service-title p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 30px 0px;
+}
+@media only screen and (max-width: 991px) {
+    .ios-service .ios-service-details .ios-service-title p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-title p {
+        font-size: 19px;
+        position: relative;
+        padding: 0 25px;
+        max-width: 300px;
+        margin: 40px auto;
+    }
+}
+@media only screen and (max-width: 575px) and (max-width: 435px) {
+    .ios-service .ios-service-details .ios-service-title p {
+        padding: 0 32px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-title p:before {
+        content: "{";
+        position: absolute;
+        font-size: 200px;
+        top: 42%;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        line-height: 200px;
+        left: -36px;
+        font-weight: 100;
+        color: #5cdb95;
+    }
+}
+@media only screen and (max-width: 575px) and (max-width: 435px) {
+    .ios-service .ios-service-details .ios-service-title p:before {
+        left: -16px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-title p:after {
+        content: "}";
+        position: absolute;
+        font-size: 200px;
+        top: 42%;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        line-height: 200px;
+        right: -36px;
+        font-weight: 100;
+        color: #5cdb95;
+    }
+}
+@media only screen and (max-width: 575px) and (max-width: 435px) {
+    .ios-service .ios-service-details .ios-service-title p:after {
+        right: -16px;
+    }
+}
+
+.ios-service .ios-service-details .ios-service-item {
+    width: 55%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 1366px) {
+    .ios-service .ios-service-details .ios-service-item {
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-item {
+        width: 100%;
+    }
+}
+.ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper {
+    width: 50%;
+    margin-bottom: 80px;
+}
+@media only screen and (max-width: 1366px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper {
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-img svg {
+    fill: #5cdb95;
+    width: 52px;
+    height: 52px;
+}
+@media only screen and (max-width: 991px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-img svg {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-img svg {
+        margin: 0 auto;
+        fill: #f1f1f1;
+    }
+}
+.ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info {
+    padding: 25px 0px;
+}
+@media only screen and (max-width: 1366px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info {
+        padding: 25px 11px 10px 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info {
+        padding: 15px 11px 10px 0;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info {
+        padding: 15px 0;
+    }
+}
+.ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 991px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info h4 {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info h4 {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #5cdb95;
+    }
+}
+.ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px 30px 10px 0px;
+    color: #c7c7c7;
+}
+@media only screen and (max-width: 1199px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info p {
+        font-size: 12px;
+        padding: 10px 10px 10px 0px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-service-item-info p {
+        font-size: 17px;
+        padding: 10px 0;
+    }
+}
+.ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-sev-item-btn a {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 1px;
+    border: 1px solid #ffffff;
+    padding: 8px 15px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.ios-service .ios-service-details .ios-service-item .ios-service-item-wrapper .app-sev-item-btn a:hover {
+    border: 1px solid #5cdb95;
+    background: #5cdb95;
+    color: #121212;
+    font-weight: 400;
+}

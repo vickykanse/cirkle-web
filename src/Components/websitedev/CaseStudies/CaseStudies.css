@@ -1,0 +1,302 @@
+.case-studies {
+    padding: 70px 30px;
+    background: #f0f9f0;
+}
+@media only screen and (max-width: 767px) {
+    .case-studies {
+        padding: 40px 10px 20px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .case-study-img {
+        max-width: 220px;
+        margin: 100px auto 0;
+    }
+}
+.case-studies .row {
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .row {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+.case-studies .multyBox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+.case-studies .multyBox .expBox {
+    width: 235px;
+    padding: 0 10px;
+}
+@media only screen and (max-width: 1440px) {
+    .case-studies .multyBox .expBox {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .case-studies .multyBox .expBox {
+        width: 160px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .case-studies .multyBox .expBox {
+        width: 120px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox {
+        width: 50%;
+        flex: 0 0 50%;
+    }
+}
+.case-studies .multyBox .expBox .box {
+    height: 201px;
+    width: 201px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1440px) {
+    .case-studies .multyBox .expBox .box {
+        height: 185px;
+        width: 185px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .case-studies .multyBox .expBox .box {
+        height: 140px;
+        width: 140px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .case-studies .multyBox .expBox .box {
+        height: 110px;
+        width: 110px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox .box {
+        height: 90px;
+        width: 100%;
+    }
+}
+.case-studies .multyBox .expBox .box:before {
+    -webkit-transform: translate(-100px, -100px);
+    transform: translate(-100px, -100px);
+    content: "";
+    position: absolute;
+    background: rgba(92, 219, 150, 0.16);
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    -webkit-transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 0.5s;
+}
+@media only screen and (max-width: 991px) {
+    .case-studies .multyBox .expBox .box:before {
+        height: 52px;
+        width: 52px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox .box:before {
+        height: 32px;
+        width: 32px;
+    }
+}
+.case-studies .multyBox .expBox .box:hover:before {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+}
+.case-studies .multyBox .expBox .box i.letr {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: calc((3.5 * (1em - 13px) - -2em - 7px));
+    color: #121212;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox .box i.letr {
+        top: 3px;
+        right: 8px;
+        font-size: 27px;
+    }
+}
+.case-studies .multyBox .expBox .box .text {
+    font-size: calc((-0.2 * (1em - 13px) - -2em - 13px));
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-weight: 700;
+}
+@media only screen and (max-width: 1199px) {
+    .case-studies .multyBox .expBox .box .text {
+        font-size: 13px;
+    }
+}
+.case-studies .multyBox .expBox .box.white {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox .box.white {
+        margin-bottom: 15px;
+    }
+}
+.case-studies .multyBox .expBox .box.white i.letr {
+    color: #000000;
+}
+.case-studies .multyBox .expBox .box.white .text {
+    color: #121212;
+}
+.case-studies .multyBox .expBox .box.blueL {
+    background-color: #000000;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.case-studies .multyBox .expBox .box.blueL i.letr {
+    color: #56cc8a;
+}
+.case-studies .multyBox .expBox .box.blueL .text {
+    color: #ffffff;
+}
+.case-studies .multyBox .expBox .box.blueD {
+    background-color: #121212;
+    margin-bottom: 23px;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox .box.blueD {
+        margin-bottom: 15px;
+    }
+}
+.case-studies .multyBox .expBox .box.blueD i.letr {
+    color: #56cd8c;
+}
+.case-studies .multyBox .expBox .box.blueD .text {
+    color: #ffffff;
+}
+.case-studies .multyBox .expBox .box.borderB {
+    border: 3px solid #56cd8c;
+    margin-bottom: 30px;
+    background: #f0f9f0;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox .box.borderB {
+        margin-bottom: 15px;
+    }
+}
+.case-studies .multyBox .expBox .box.borderB i.letr {
+    color: #000000;
+}
+.case-studies .multyBox .expBox .box.borderB .text {
+    color: #121212;
+}
+.case-studies .multyBox .expBox .box.yellow {
+    background-color: #5cdb95;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.case-studies .multyBox .expBox .box.yellow:before {
+    background: #0f0f11;
+}
+.case-studies .multyBox .expBox .box.yellow i.letr {
+    color: black;
+}
+.case-studies .multyBox .expBox .box.yellow .text {
+    color: #121212;
+}
+.case-studies .multyBox .expBox.boxTwo {
+    margin-top: 70px;
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox.boxTwo {
+        margin: 0;
+    }
+}
+.case-studies .multyBox .expBox.boxThree {
+    margin-top: 250px;
+}
+@media only screen and (max-width: 991px) {
+    .case-studies .multyBox .expBox.boxThree {
+        margin-top: 450px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .case-studies .multyBox .expBox.boxThree {
+        margin-top: 15px;
+        width: 100%;
+        flex: 0 0 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0;
+    }
+    .case-studies .multyBox .expBox.boxThree span {
+        margin: 0 10px;
+    }
+}
+.container-ratio {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    max-width: 60%;
+    right: -46px;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    z-index: -1;
+}
+@media only screen and (max-width: 575px) {
+    .container-ratio {
+        width: 100%;
+        top: 102%;
+        max-width: 400px;
+        -webkit-transform: translate(0%, -100%);
+        transform: translate(0%, -100%);
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+}

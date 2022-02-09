@@ -1,0 +1,156 @@
+.cm-difference-design {
+    background: #121212;
+    padding: 60px 0px;
+    overflow: hidden;
+    position: relative;
+}
+@media only screen and (max-width: 767px) {
+    .cm-difference-design {
+        padding: 40px 0;
+    }
+}
+.cm-difference-design .cm-diff-title {
+    width: 35%;
+    overflow: hidden;
+}
+@media only screen and (max-width: 991px) {
+    .cm-difference-design .cm-diff-title {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-difference-design .cm-diff-title {
+        width: 100%;
+    }
+}
+.cm-difference-design .cm-diff-title h2 {
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: left;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-difference-design .cm-diff-title h2 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-difference-design .cm-diff-title h2 {
+        font-size: 24px;
+    }
+}
+.cm-difference-design .cm-ui-ux-difference {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.cm-difference-design .cm-ui-ux-difference .cm-difference-content {
+    width: 72%;
+    overflow: hidden;
+    margin-left: auto;
+}
+@media only screen and (max-width: 991px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content {
+        width: 100%;
+    }
+}
+.cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+@media only screen and (max-width: 575px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li > span {
+    font-size: 200px;
+    width: 30%;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li > span {
+        width: 38%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li > span {
+        font-size: 120px;
+        width: 23%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li > span {
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li > span {
+        width: 100%;
+    }
+}
+.cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li > span span {
+    color: #5cdb95;
+    background: -webkit-linear-gradient(transparent, transparent), url("../../../images/uiux/bubbles.png") repeat;
+    background-size: 70px auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: background 20s infinite linear;
+    background-color: #5cdb95;
+}
+.cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li p {
+    width: 70%;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li p {
+        width: 62%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li p {
+        font-size: 16px;
+        width: 77%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li p {
+        width: 100%;
+    }
+}
+.cm-difference-design .cm-ui-ux-difference .cm-difference-content ul li p.cm-ui-bl-ds {
+    width: 100%;
+    text-align: justify;
+}
+.cm-difference-design .big-background-letter {
+    left: 0;
+    bottom: 95vh;
+    top: auto;
+}
+.cm-difference-design .big-background-letter span {
+    font-size: 100vh;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.2);
+    -webkit-transform: rotatey(180deg);
+    transform: rotatey(180deg);
+}

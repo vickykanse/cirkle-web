@@ -1,0 +1,30 @@
+.cm-about-company{padding:60px 0}
+.company-pages .big-container{max-width:1680px;margin:0 auto}
+.cm-about-company .cm-about-inner-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:100%;padding-right:40px}
+.cm-section-title{padding-bottom:50px;overflow:hidden}
+.cm-section-title h2{color:#121212;font-size:36px;letter-spacing:2px;text-transform:uppercase;position:relative;line-height:1.5}
+.cm-section-title.text-left.anim-title .seperator{margin:20px auto 0 0}
+.cm-section-title .seperator{width:90px;height:2px;background:#5cdb95;margin:20px auto 0}
+.cm-about-company .cm-about-inner-content ul{border-left:1px solid #121212;list-style:none;padding-left:0}
+.cm-about-company .cm-about-inner-content ul li{position:relative;font-size:17px;color:#565656;margin-bottom:13px;padding-left:25px}
+.cm-about-company .cm-about-inner-content ul li:before{content:"";position:absolute;height:8px;width:8px;background:#5cdb95;left:-5px;border-radius:100%;top:5px}
+.cm-about-company .cm-about-inner-content ul li:after{content:"";position:absolute;height:12px;width:12px;background:transparent;left:-7px;border-radius:100%;border:2px solid #121212;top:3px}
+.cm-about-company .cm-about-inner-banner{text-align:center}
+.cm-about-company .cm-about-inner-banner img{width:80%}
+@media only screen and (max-width: 1800px) {
+.company-pages .big-container{max-width:85%}
+}
+@media only screen and (max-width: 1199px) {
+.company-pages .cm-section-title h2{font-weight:600;letter-spacing:0}
+.cm-section-title{padding-bottom:30px}
+.cm-section-title h2{font-size:28px;letter-spacing:1px}
+}
+@media only screen and (max-width: 767px) {
+.company-pages .big-container{max-width:100%;padding:0 15px}
+.cm-section-title h2{font-size:20px}
+.cm-about-company{padding:40px 0 0}
+}
+@media only screen and (max-width: 575px) {
+.cm-about-company .cm-about-inner-banner img{width:50%}
+.cm-about-company .cm-about-inner-banner{padding:0 0 40px}
+}

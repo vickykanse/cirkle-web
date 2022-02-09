@@ -1,0 +1,40 @@
+.cm-vision-mission-section{padding:140px 0}
+.cm-vision-mission-section ul{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:start;align-items:flex-start;-ms-flex-pack:justify;justify-content:space-between;margin:auto;position:relative;z-index:1;max-width:100%;padding:0 15px}
+.cm-vision-mission-section ul li{padding:80px;text-align:center;-webkit-box-shadow:0 16px 40px 0 rgba(62,102,43,0.2);box-shadow:0 16px 40px 0 rgba(62,102,43,0.2);background-color:#fff;min-height:300px;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;width:100%;margin:0 10px 30px;max-width:500px}
+.cm-vision-mission-section ul:after,.cm-vision-mission-section ul:before{content:"";width:40px;height:40px;position:absolute;background-image:linear-gradient(316deg,#5cdb95,#2e8e59);z-index:-1;top:calc(50% + 100px);left:calc(50% + 10px);border-radius:100%}
+.cm-vision-mission-section ul:after{left:calc(50% - 30px);top:50%}
+.cm-vision-mission-section ul li:after,.cm-vision-mission-section ul li:before{content:"";width:40px;height:40px;position:absolute;background-image:linear-gradient(316deg,#5cdb95,#2e8e59);z-index:-1;border-radius:100%}
+.cm-vision-mission-section ul li:first-child:before{bottom:-40px;left:-40px}
+.cm-vision-mission-section ul li:first-child:after{left:36px;top:-15px}
+.cm-vision-mission-section ul li:last-child:before{bottom:-50px;right:160px}
+.cm-vision-mission-section ul li:last-child:after{right:-15px;top:-15px}
+.cm-vision-mission-section ul li h3{font-size:48px;font-weight:900;color:#5cdb95;text-transform:uppercase;margin-bottom:20px}
+.cm-vision-mission-section ul li h4{font-size:24px;font-weight:700;color:#121212}
+.cm-vision-mission-section ul li h3:after{content:"";width:40px;height:40px;position:absolute;background-image:linear-gradient(316deg,#5cdb95,#2e8e59);z-index:-1;border-radius:100%}
+.cm-vision-mission-section ul li:last-child h3:after{left:165px;top:-50px}
+.cm-vision-mission-section ul li:first-child h3:after{left:155px;top:100%}
+.cm-vision-mission-section ul li h3:after{content:"";width:40px;height:40px;position:absolute;background-image:linear-gradient(316deg,#5cdb95,#2e8e59);z-index:-1;border-radius:100%}
+@media only screen and (max-width: 1800px) {
+.company-pages .big-container{max-width:85%}
+}
+@media only screen and (max-width: 1199px) {
+.cm-vision-mission-section{padding:70px 0}
+.cm-vision-mission-section ul li{padding:40px 20px;min-height:200px}
+.cm-vision-mission-section ul{padding:0}
+.cm-vision-mission-section ul li h3{font-size:36px}
+}
+@media only screen and (max-width: 991px) {
+.cm-vision-mission-section{padding:40px 0}
+.cm-vision-mission-section ul li h4{font-size:20px}
+}
+@media only screen and (max-width: 767px) {
+.cm-vision-mission-section ul li h3{font-size:22px}
+.cm-vision-mission-section ul li h4{font-size:15px}
+.company-pages .big-container{max-width:100%;padding:0 15px}
+.cm-vision-mission-section ul li{min-height:auto}
+}
+@media only screen and (max-width: 575px) {
+.cm-vision-mission-section ul li{max-width:100%;width:100%;margin:0 auto 30px}
+.cm-vision-mission-section ul{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
+.cm-vision-mission-section ul li h4{font-size:18px}
+}

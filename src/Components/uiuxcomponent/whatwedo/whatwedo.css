@@ -1,0 +1,127 @@
+
+.cm-what-we-do-design {
+    padding: 60px 0px;
+    background: rgba(104, 94, 94, 0.03);
+}
+@media only screen and (max-width: 767px) {
+    .cm-what-we-do-design {
+        padding: 40px 0 20px;
+    }
+}
+.cm-what-we-do-design .cm-how-do-design {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.cm-what-we-do-design .cm-how-do-design .big-background-letter {
+    left: -70px;
+    bottom: 90vh;
+    top: auto;
+}
+@media only screen and (max-width: 767px) {
+    .cm-what-we-do-design .cm-how-do-design .big-background-letter {
+        left: 0;
+    }
+}
+.cm-what-we-do-design .cm-how-do-design .big-background-letter span {
+    font-size: 90vh;
+    font-weight: 800;
+    color: #121212;
+    opacity: 0.05;
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-left-section {
+    width: 40%;
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-right-section {
+    width: 60%;
+}
+@media only screen and (max-width: 991px) {
+    .cm-what-we-do-design .cm-how-do-design .cm-design-right-section {
+        width: 100%;
+    }
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper {
+    color: #121212;
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+@media only screen and (max-width: 575px) {
+    .cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 0px 0;
+    }
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li .wwd-icon i {
+    font-size: 54px;
+    color: #000000;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #5cdb95;
+    display: inline-block;
+    flex: 0 0 14%;
+    border-radius: 100%;
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li .cm-design-content {
+    padding-left: 45px;
+}
+@media only screen and (max-width: 575px) {
+    .cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li .cm-design-content {
+        padding-left: 0;
+    }
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li .cm-design-content h4 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 575px) {
+    .cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li .cm-design-content h4 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+.cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li .cm-design-content p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+@media only screen and (max-width: 575px) {
+    .cm-what-we-do-design .cm-how-do-design .cm-design-right-section .cm-ds-inner-wrapper ul li .cm-design-content p {
+        font-size: 15px;
+    }
+}
+.cm-section-title h2 {
+    color: #121212;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1.5;
+}
+@media only screen and (max-width: 1199px) {
+    .cm-section-title h2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-section-title h2 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,89 @@
+footer.footer-main .inner_content_wrap{height:100%;-ms-flex-align:end;align-items:flex-end;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}
+footer.footer-main .footer-big-text{position:absolute;left:30%;right:0;top:44%;text-align:center;-webkit-transform:translate(0px,-50%);transform:translate(0px,-50%)}
+footer.footer-main .footer-big-text .big-background-letter{position:static;left:0;display:inline-block}
+footer.footer-main .footer-big-text .big-background-letter span{position:static;font-size:105vh;font-weight:600}
+.footer-bottom-socials ul li a svg{height:24px;width:24px;fill:#121212}
+.footer-bottom-socials ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:40px 0 25px}
+.footer-bottom-socials ul li{margin:0 15px;display:block}
+.footer-bottom-socials p{font-size:15px;color:#121212;text-align:center;padding-bottom:30px;margin:0}
+footer.footer-main .inner_content_wrap .footer-left-part{width:100%}
+.company-links{padding-bottom:50px}
+.company-links h4{display:block;padding-bottom:6px;font-weight:600;font-size:24px;color:#121212}
+.company-links ul li a{color:#121212;position:relative;-webkit-transition:all ease-in-out .5s;transition:all ease-in-out .5s;line-height:1.2;font-size:20px;display:inline-block}
+.company-links ul li a:hover{color:#5cdb95}
+.company-links ul li .vacacy{display:inline-block;width:25px;height:25px;margin-left:11px;background-color:#5cdb95;border-radius:50%;font-size:16px;font-weight:700;color:#121212;text-align:center;line-height:26px;position:absolute;cursor:pointer}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details{color:#121212;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:start;align-items:flex-start;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;width:100%}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details > div{flex:0 0 25%;position:relative;overflow:hidden}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details .city-location h3{font-size:25px;text-transform:uppercase;font-weight:600;line-height:1}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details .city-location h3 span{display:block;font-weight:400;font-size:20px}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details .con-parts span{display:block;padding-bottom:6px;font-weight:600;font-size:20px}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details .con-parts a{color:#121212;position:relative;-webkit-transition:all ease-in-out .5s;transition:all ease-in-out .5s;font-size:18px;line-height:1.2}
+.active .pg3_bg_right_full{-webkit-transform:scaleX(0.7);transform:scaleX(0.7);transition:-webkit-transform 1.5s cubic-bezier(0,0,0.42,1) 1.5s;transition:transform 1.5s cubic-bezier(0,0,0.42,1) 1.5s}
+.active .pg3_bg_right_light{-webkit-transform:scaleX(0.6);-ms-transform:scaleX(0.6);transform:scaleX(0.6);transition:-webkit-transform 1s ease 1s;transition:transform 1s ease 1s}
+.pg3_bg_right_full{background-image:url(../../images/footer/pg3_right_full.svg);width:35%}
+.pg3_bg_right_light{background-image:url(../../images/footer/pg3_right_light.svg)}
+.pg3_bg_right_full,.pg3_bg_right_light{right:0;-webkit-transform-origin:right center;-ms-transform-origin:right center;transform-origin:right center}
+.pg3_bg_left_full,.pg3_bg_left_light,.pg3_bg_right_full,.pg3_bg_right_light{height:100%;width:30%;-webkit-transform:scaleX(0);transform:scaleX(0);-ms-transform:scaleX(0.001);transition:-webkit-transform 0 ease 1s;transition:transform 0 ease 1s;top:0}
+.curtains{position:absolute;background-size:100% 100%;will-change:transform;z-index:0}
+footer.footer-main .footer-title:before{content:"";height:100%;width:60px;position:absolute;top:0;background:url(../../images/footer/triangle.png);background-position:top left;background-size:60% 100%;background-repeat:no-repeat;right:-60px}
+.fp-viewing-5 .logo a svg path{fill:#121212}
+.footer-bottom-socials ul li a svg path{fill:#121212;stroke:none}
+.inner-page-footer{height:100vh!important;position:relative!important;overflow:hidden;z-index:1}
+footer.footer-main .footer-title{position:absolute;background:#121212;width:48%;padding:50px;top:120px;z-index:2;opacity:0;visibility:hidden;-webkit-transition:all ease-in-out 2s;transition:all ease-in-out 2s}
+footer.footer-main .footer-title h3{font-size:50px;text-transform:uppercase;font-weight:600;letter-spacing:3px;padding-left:50px;line-height:1.4;text-shadow:0 -1px 0 #ffffff,0 1px 0 #2e2e2e,0 2px 0 #2c2c2c,0 3px 0 #2a2a2a,0 4px 0 #282828,0 5px 0 #262626,0 6px 0 #242424,0 7px 0 #222222,0 8px 0 #202020,0 9px 0 #1e1e1e,0 10px 0 #1c1c1c,0 11px 0 #1a1a1a,0 12px 0 #181818,0 13px 0 #161616,0 14px 0 #141414,0 15px 0 #121212,0 22px 30px rgba(0,0,0,0.9)}
+footer.footer-main .footer-title span{width:100%;display:block;margin-top:40px;color:#5cdb95;font-size:30px;text-align:right;text-transform:initial;letter-spacing:initial;font-weight:600}
+.footer-main.active .footer-title{ -webkit-animation: Right 0.6s 0s both;animation: Right 0.6s 0s both;-webkit-animation-delay: 1s;animation-delay:1s;opacity:1;visibility:visible}
+@keyframes Right {
+    0% {transform: translateX(-101%); }
+    100% {transform: none; }
+    }
+@media only screen and (max-width: 1800px) {
+.company-links ul li{flex:0 0 25%}
+.company-links ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between}
+footer.footer-main .footer-title{top:50px}
+}
+@media only screen and (max-width: 1800px) and (max-width: 767px) {
+.company-links ul{flex-direction:column;-ms-flex-align:start;align-items:flex-start;-ms-flex-pack:start;justify-content:flex-start}
+}
+@media only screen and (max-width: 1366px) {
+footer.footer-main .footer-title span{font-size:26px}
+footer.footer-main .footer-title h3{font-size:40px}
+}
+@media only screen and (max-width: 1199px) {
+footer.footer-main .footer-title span{font-size:22px}
+footer.footer-main .footer-title{top:25px}
+footer.footer-main .footer-title h3{font-size:26px;padding:0}
+}
+@media only screen and (max-width: 991px) {
+footer.footer-main .footer-title span{font-size:15px}
+footer.footer-main .footer-title h3{font-size:20px}
+footer.footer-main .footer-title{padding:30px}
+}
+@media only screen and (max-width: 767px) {
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details > div{flex:0 0 100%}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details{padding:0 12px 0 0;width:50%;order:1}
+footer.footer-main .inner_content_wrap .footer-left-part{width:100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:0 15px}
+footer.footer-main .footer-title{width:50%;padding:30px 20px;top:auto;margin-top:20px}
+.company-links{width:50%;flex:0 0 50%;order:2}
+.company-links h4{font-size:18px}
+.company-links ul li .vacacy{width:22px;height:22px;margin-left:9px;font-size:14px;line-height:23px}
+.company-links ul li a{font-size:15px;line-height:normal}
+.company-links ul li{flex:0 0 100%}
+footer.footer-main .inner_content_wrap .footer-left-part{width:100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:0 15px}
+.footer-bottom-socials{flex:0 0 100%;order:3}
+}
+@media only screen and (max-width: 575px) {
+.footer-bottom-socials ul li{margin:0 10px 0 0}
+.company-links ul li{margin:5px 0}
+footer.footer-main .footer-title{padding:20px}
+footer.footer-main .footer-title h3{font-size:15px;text-shadow:0 2px 0 #8883836b}
+footer.footer-main .footer-title h3 br{display:none}
+footer.footer-main .footer-title span{font-size:12px;padding:0;margin:20px 0 0}
+footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details .city-location{padding-bottom:15px}
+}
+@media only screen and (min-width: 320px) {
+    footer.footer-main .inner_content_wrap .footer-left-part .cm-contact-details .con-parts a
+    {
+        font-size: 14px;
+    }
+}

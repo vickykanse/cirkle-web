@@ -1,0 +1,37 @@
+.company-pages .cm-process{background:#121212}
+.company-pages .cm-process .cm-section-title h2{color:#fff}
+.cm-process{padding:60px 0}
+.cm-process .col-lg-4{flex:0 0 33.3333%;text-align:center}
+.cm-process .col-lg-4 .work-process{position:relative}
+.cm-process .col-lg-4 .work-process .step-num-box{position:relative;display:inline-block;margin-bottom:20px}
+.cm-process .col-lg-4 .work-process .step-num-box .step-icon{width:140px;height:140px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;line-height:140px;text-align:center;margin:0 auto;-webkit-box-shadow:1px 1px 17px 0 rgba(0,0,0,0.31);-moz-box-shadow:1px 1px 17px 0 rgba(0,0,0,0.31);box-shadow:1px 1px 17px 0 rgba(0,0,0,0.31);background:rgba(0,0,0,0.87);border:3px solid #5cdb95;color:#fff}
+.cm-process .col-lg-4 .work-process .step-num-box .step-icon span::after,.cm-process .col-lg-4 .work-process .step-num-box .step-icon span::before{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;content:"";height:40px;position:absolute;width:40px;z-index:-1}
+.flaticon-transparency:before{content:"\f116"}
+.flaticon-respect:before{content:"\f114"}
+.flaticon-friendship:before{content:"\f115"}
+.cm-process .col-lg-4 .work-process .step-num-box .step-icon span{position:relative;font-size:60px;font-weight:500}
+.cm-process .col-lg-4 .work-process .step-num-box .step-num{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;-webkit-box-shadow:0 12px 20px 0 rgba(92,219,149,0.43);-moz-box-shadow:0 12px 20px 0 rgba(92,219,149,0.43);box-shadow:0 12px 20px 0 rgba(92,219,149,0.43);display:inline-block;font-size:18px;font-weight:600;height:50px;right:0;position:absolute;text-align:center;top:0;width:50px;background:#020202;color:#a0a0a0;line-height:52px}
+.cm-process .col-lg-4 .work-process .step-desc h4{margin:30px 0 20px;font-weight:600;color:#fff;font-size:21px;letter-spacing:3px;text-transform:capitalize}
+.cm-process .col-lg-4 .work-process .step-desc h4 a{color:#fff;display:inline-block}
+.cm-process .col-lg-4 .work-process .step-desc p{color:#c7c7c7;letter-spacing:1px;font-size:16px;padding:0 30px;line-height:1.5}
+.cm-process .col-lg-4:nth-child(1) .work-process:before{content:"";position:absolute;top:40px;right:-135px;z-index:1;width:256px;height:40px;display:block;background:url(../../../images/company/awro1.png) 50% 50% no-repeat}
+.cm-process .col-lg-4:nth-child(2) .work-process:before{content:"";position:absolute;top:40px;right:-135px;z-index:1;width:256px;height:40px;display:block;background:url(../../../images/company/awro2.png) 50% 50% no-repeat}
+@media only screen and (max-width: 1199px) {
+.cm-process .col-lg-4 .work-process .step-desc p{letter-spacing:0;font-size:14px;padding:0 10px}
+}
+@media only screen and (max-width: 991px) {
+.cm-process .col-lg-4 .work-process .step-num-box .step-icon{width:100px;height:100px;line-height:100px}
+.cm-process .col-lg-4 .work-process .step-num-box .step-num{font-size:15px;height:40px;right:-11px;line-height:40px;top:-8px;width:40px}
+.cm-process .col-lg-4:nth-child(1) .work-process:before,.cm-process .col-lg-4:nth-child(2) .work-process:before{right:-26px;width:66px;height:29px;background-size:contain}
+}
+@media only screen and (max-width: 767px) {
+.cm-process{padding:40px 0}
+.cm-process .col-lg-4:nth-child(1) .work-process:before,.cm-process .col-lg-4:nth-child(2) .work-process:before{width:45px}
+.cm-process .col-lg-4 .work-process .step-desc h4{letter-spacing:0;font-weight:500;font-size:18px;margin:0 0 15px}
+}
+@media only screen and (max-width: 575px) {
+.cm-process .col-lg-4{flex:0 0 100%}
+.cm-process .col-lg-4:nth-child(1) .work-process:before,.cm-process .col-lg-4:nth-child(2) .work-process:before{display:none}
+.cm-process .col-lg-4 .work-process .step-desc{margin-bottom:30px}
+.cm-process .col-lg-4 .work-process .step-desc h4{margin:10px 0 20px}
+}

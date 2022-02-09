@@ -1,0 +1,29 @@
+.ui-ux-section {
+    background: #020202;
+}
+@media only screen and (max-width: 1199px) {
+    .ui-ux-section {
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .ui-ux-section .cm-header-text-wrapper {
+        margin-top: -80px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .ui-ux-section {
+        height: 450px;
+    }
+}
+.ui-ux-section .center-img {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    opacity: 0.4;
+}
+.ui-ux-section * {
+    color: #ffffff;
+}

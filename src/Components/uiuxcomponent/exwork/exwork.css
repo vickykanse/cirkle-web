@@ -1,0 +1,217 @@
+.cm-our-works-section {
+    background: #121212;
+    padding: 60px 0px;
+}
+@media only screen and (max-width: 767px) {
+    .cm-our-works-section {
+        padding: 40px 0;
+    }
+}
+.cm-our-works-section .work-big-text {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0px, -50%);
+    transform: translate(0px, -50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.cm-our-works-section .work-big-text .big-background-letter {
+    position: static;
+    display: inline-block;
+}
+.cm-our-works-section .work-big-text .big-background-letter span {
+    position: static;
+    color: #ffffff;
+    opacity: 0.04;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 75vh;
+}
+@media only screen and (max-width: 767px) {
+    .cm-our-works-section .work-big-text .big-background-letter span {
+        font-size: 44vh;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-our-works-section .work-big-text .big-background-letter span {
+        font-size: 24vh;
+    }
+}
+.cm-our-works-section .our-works-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+    .cm-our-works-section .our-works-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+.cm-our-works-section .our-works-wrapper .our-works-title {
+    font-size: 45px;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 380px;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 767px) {
+    .cm-our-works-section .our-works-wrapper .our-works-title {
+        -ms-flex-align: start;
+        align-items: flex-start;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .cm-our-works-section .our-works-wrapper .our-works-title {
+        font-size: 32px;
+    }
+}
+.cm-our-works-section .our-works-wrapper .our-works-title span {
+    display: block;
+    color: #5cdb95;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps {
+    width: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 767px) {
+    .cm-our-works-section .our-works-wrapper .cm-works-ps {
+        width: 100%;
+    }
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable {
+    display: block;
+    position: relative;
+    flex: 0 0 50%;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable img {
+    width: 100%;
+    object-fit: cover;
+    -webkit-transition: transform 0.15s;
+    transition: transform 0.15s;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable span {
+    color: #ffffff;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: block;
+    margin-top: 5px;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable span .made-in {
+    font-size: 12px;
+    color: #5cdb95;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable span {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable span {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(1) {
+    padding-right: 30px;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(1) img {
+    height: 300px;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(2) img {
+    height: 245px;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(3) {
+    margin-top: 35px;
+    left: 0;
+    padding-right: 30px;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(3) {
+        left: 0;
+    }
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(3) img {
+    height: 200px;
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(4) {
+    top: 0;
+    left: 22px;
+}
+@media only screen and (max-width: 1440px) {
+    .cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(4) {
+        top: 0;
+        left: 0;
+    }
+}
+.cm-our-works-section .our-works-wrapper .cm-works-ps .work-lable:nth-of-type(4) img {
+    height: 245px;
+}
+.cm-our-works-section .our-works-wrapper .cm-work-btn {
+    padding: 0;
+    bottom: 0;
+    position: relative;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+@media only screen and (max-width: 991px) {
+    .cm-our-works-section .our-works-wrapper .cm-work-btn {
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .cm-our-works-section .our-works-wrapper .cm-work-btn {
+        position: relative;
+        margin-top: 40px;
+    }
+}
+.cm-our-works-section .our-works-wrapper .cm-work-btn a {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.cm-our-works-section .our-works-wrapper .cm-work-btn a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    height: 2px;
+    background: #5cdb95;
+    bottom: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.cm-our-works-section .our-works-wrapper .cm-work-btn a:hover:before {
+    width: 100%;
+}

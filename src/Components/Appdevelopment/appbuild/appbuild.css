@@ -1,0 +1,564 @@
+.app-build {
+    padding: 80px 0px;
+    background: rgba(104, 94, 94, 0.03);
+    position: relative;
+}
+.app-build .app-build-wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.app-build .app-build-wrapper .app-build-item {
+    width: calc(50% - 10px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 18px;
+    background: #ffffff;
+    margin: 10px 0px;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.app-build .app-build-wrapper .app-build-item .app-sub-img {
+    width: 55px;
+    height: 55px;
+    position: relative;
+}
+.app-build .app-build-wrapper .app-build-item h3 {
+    color: #121212;
+    padding-left: 40px;
+}
+.app-build .app-build-wrapper .app-build-item:hover {
+    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+.app-build {
+    padding: 80px 0px 150px;
+    background: #121212;
+}
+@media only screen and (max-width: 767px) {
+    .app-build {
+        padding: 40px 0 90px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .app-build {
+        padding: 40px 0px 100px;
+    }
+}
+@media only screen and (max-width: 435px) {
+    .app-build {
+        padding: 40px 0px 80px;
+    }
+}
+.app-build .cm-section-title {
+    padding-bottom: 80px;
+}
+@media only screen and (max-width: 767px) {
+    .app-build .cm-section-title {
+        padding-bottom: 40px;
+    }
+}
+.app-build .cm-section-title h2 {
+    color: #ffffff;
+}
+.app-build .cm-section-title span {
+    margin-top: 20px;
+    color: #ffffff;
+}
+.app-build .image-column {
+    position: relative;
+    width: 100%;
+}
+.app-build .image-column .inner-column {
+    position: relative;
+    height: 350px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 991px) {
+    .app-build .image-column .inner-column {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .app-build .image-column .inner-column {
+        height: 212px;
+    }
+}
+.app-build .image-column .icon {
+    position: absolute;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    background: #121212;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 1px 2px 14px #000000;
+    -moz-box-shadow: 1px 2px 14px #000000;
+    box-shadow: 1px 2px 14px #000000;
+    z-index: 1;
+    height: 95px;
+    width: 95px;
+    text-align: center;
+    line-height: 95px;
+    color: #ffffff;
+}
+@media only screen and (max-width: 991px) {
+    .app-build .image-column .icon {
+        height: 75px;
+        width: 75px;
+        line-height: 75px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .app-build .image-column .icon {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+    }
+}
+.app-build .image-column .icon i {
+    font-size: 35px;
+}
+@media only screen and (max-width: 575px) {
+    .app-build .image-column .icon i {
+        font-size: 25px;
+    }
+}
+.app-build .image-column .icon .badge {
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 90%;
+    color: #212529;
+    padding: 6px 10px;
+    background-color: #ffffff;
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    z-index: 33;
+    visibility: hidden;
+}
+@media only screen and (max-width: 575px) {
+    .app-build .image-column .icon .badge {
+        padding: 5px 5px;
+        font-size: 55%;
+    }
+}
+.app-build .image-column .icon:hover .badge {
+    opacity: 1;
+    -webkit-transform: translateX(-42%);
+    transform: translateX(-42%);
+    visibility: visible;
+}
+@media only screen and (max-width: 991px) {
+    .app-build .image-column .icon:hover .badge {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+@media only screen and (max-width: 575px) {
+    .app-build .image-column .icon:hover .badge {
+        -webkit-transform: translateX(-60%);
+        transform: translateX(-60%);
+    }
+}
+.app-build .image-column .icon img {
+    width: 45px;
+    height: 45px;
+}
+@media only screen and (max-width: 991px) {
+    .app-build .image-column .icon img {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .app-build .image-column .icon img {
+        width: 20px;
+        height: 20px;
+    }
+}
+.app-build .image-column .icon img,
+.app-build .image-column .icon a {
+    position: relative;
+    display: block;
+    color: #5cdb95;
+}
+.app-build .image-column .icon-1 {
+    left: 12%;
+    top: 10%;
+}
+@media only screen and (max-width: 435px) {
+    .app-build .image-column .icon-1 {
+        left: 7%;
+        top: 12%;
+    }
+}
+.app-build .image-column .icon-2 {
+    right: 0;
+    top: 45%;
+}
+@media only screen and (max-width: 435px) {
+    .app-build .image-column .icon-2 {
+        top: 40%;
+    }
+}
+.app-build .image-column .icon-3 {
+    left: 30%;
+    top: -3%;
+}
+@media only screen and (max-width: 435px) {
+    .app-build .image-column .icon-3 {
+        left: 29%;
+        top: -3%;
+    }
+}
+.app-build .image-column .icon-4 {
+    right: 13%;
+    bottom: -8%;
+}
+@media only screen and (max-width: 767px) {
+    .app-build .image-column .icon-4 {
+        right: 8%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .app-build .image-column .icon-4 {
+        right: 11%;
+        bottom: -2%;
+    }
+}
+@media only screen and (max-width: 435px) {
+    .app-build .image-column .icon-4 {
+        right: 6%;
+        bottom: 6%;
+    }
+}
+.app-build .image-column .icon-5 {
+    left: 0;
+    top: 45%;
+}
+.app-build .image-column .icon-6 {
+    left: 59%;
+    top: -2%;
+}
+@media only screen and (max-width: 767px) {
+    .app-build .image-column .icon-6 {
+        left: 53%;
+        top: -4%;
+    }
+}
+.app-build .image-column .icon-7 {
+    left: 78%;
+    top: 7%;
+}
+.app-build .image-column .icon-8 {
+    right: 31%;
+    bottom: -17%;
+}
+@media only screen and (max-width: 435px) {
+    .app-build .image-column .icon-8 {
+        right: 29%;
+        bottom: -21%;
+    }
+}
+.app-build .image-column .icon-9 {
+    left: 29%;
+    bottom: -17%;
+}
+@media only screen and (max-width: 435px) {
+    .app-build .image-column .icon-9 {
+        left: 28%;
+        bottom: -20%;
+    }
+}
+.app-build .image-column .icon-10 {
+    left: 11%;
+    bottom: -8%;
+}
+@media only screen and (max-width: 767px) {
+    .app-build .image-column .icon-10 {
+        left: 9%;
+        bottom: -3%;
+    }
+}
+@media only screen and (max-width: 435px) {
+    .app-build .image-column .icon-10 {
+        left: 6%;
+        bottom: 0%;
+    }
+}
+.app-build .image-column .icon:hover {
+    background: #121212;
+}
+.words {
+    color: #121212;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 48%;
+}
+@media only screen and (max-width: 1366px) {
+    .words {
+        top: 49%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .words {
+        top: 47%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .words {
+        top: 57%;
+    }
+}
+.words span {
+    font-size: 200px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    display: inline-block;
+    animation: move 3s ease-in-out infinite;
+}
+@media only screen and (max-width: 1366px) {
+    .words span {
+        font-size: 160px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .words span {
+        font-size: 130px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .words span {
+        font-size: 61px;
+    }
+}
+.words span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.words span:nth-child(3) {
+    animation-delay: 1s;
+}
+.words span:nth-child(4) {
+    animation-delay: 1.5s;
+}
+.words span:nth-child(5) {
+    animation-delay: 2s;
+}
+.words span:nth-child(6) {
+    animation-delay: 2.5s;
+}
+.words span:nth-child(7) {
+    animation-delay: 3s;
+}
+.words span:nth-child(8) {
+    animation-delay: 3.5s;
+}
+.words span:nth-child(9) {
+    animation-delay: 4s;
+}
+.words span:nth-child(10) {
+    animation-delay: 4.5s;
+}
+.words span:nth-child(11) {
+    animation-delay: 5s;
+}
+.words span:nth-child(12) {
+    animation-delay: 5.5s;
+}
+.words span:nth-child(13) {
+    animation-delay: 6s;
+}
+.words span:nth-child(14) {
+    animation-delay: 6.5s;
+}
+.words span:nth-child(15) {
+    animation-delay: 7s;
+}
+.words span:nth-child(16) {
+    animation-delay: 7.5s;
+}
+.words span:nth-child(17) {
+    animation-delay: 7s;
+}
+.words span:nth-child(18) {
+    animation-delay: 7.5s;
+}
+@keyframes move {
+    0% {
+        transform: translate(0%, 0);
+    }
+    50% {
+        text-shadow: 0 0 25px #000000;
+    }
+    100% {
+        transform: translate(0%, 0);
+    }
+}
+.flaticon-test:before {
+    content: "\f100";
+}
+
+.flaticon-ux:before {
+    content: "\f101";
+}
+
+.flaticon-www:before {
+    content: "\f102";
+}
+
+.flaticon-app-development:before {
+    content: "\f103";
+}
+
+.flaticon-press:before {
+    content: "\f104";
+}
+
+.flaticon-appreciation:before {
+    content: "\f105";
+}
+
+.flaticon-online-education:before {
+    content: "\f106";
+}
+
+.flaticon-encourage:before {
+    content: "\f107";
+}
+
+.flaticon-work:before {
+    content: "\f108";
+}
+
+.flaticon-brain:before {
+    content: "\f109";
+}
+
+.flaticon-multitask:before {
+    content: "\f10a";
+}
+
+.flaticon-developing:before {
+    content: "\f10b";
+}
+
+.flaticon-animation:before {
+    content: "\f10c";
+}
+
+.flaticon-coding:before {
+    content: "\f10d";
+}
+
+.flaticon-api:before {
+    content: "\f10e";
+}
+
+.flaticon-ui:before {
+    content: "\f10f";
+}
+
+.flaticon-store:before {
+    content: "\f110";
+}
+
+.flaticon-framework:before {
+    content: "\f111";
+}
+
+.flaticon-integration:before {
+    content: "\f112";
+}
+
+.flaticon-cms:before {
+    content: "\f113";
+}
+
+.flaticon-respect:before {
+    content: "\f114";
+}
+
+.flaticon-friendship:before {
+    content: "\f115";
+}
+
+.flaticon-transparency:before {
+    content: "\f116";
+}
+
+.flaticon-interview:before {
+    content: "\f117";
+}
+
+.flaticon-financial-graphic-of-stocks-on-tablet-screen:before {
+    content: "\f118";
+}
+
+.flaticon-app:before {
+    content: "\f119";
+}
+
+.flaticon-controller:before {
+    content: "\f11a";
+}
+
+.flaticon-on-demand:before {
+    content: "\f11b";
+}
+
+.flaticon-cosmetics:before {
+    content: "\f11c";
+}
+
+.flaticon-gym:before {
+    content: "\f11d";
+}
+
+.flaticon-online:before {
+    content: "\f11e";
+}
+
+.flaticon-facebook:before {
+    content: "\f11f";
+}
+
+.flaticon-exposure:before {
+    content: "\f120";
+}
