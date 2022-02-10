@@ -298,7 +298,7 @@ svg.bs{max-width:200px;position:absolute;bottom:-107px;left:0;height:200px}
 100%{-webkit-transform:translateX(0);transform:translateX(0)}
 }
 .cm_portfolio_main .cm_sc-title.right-title-text .scroll-text-out span{-webkit-text-stroke:1px #5cdb95;color:transparent}
-.cm_portfolio_main{position:relative;overflow:hidden}
+.cm_portfolio_main{position:relative;overflow:hidden;height: 100vh;}
 @media only screen and (max-width: 1800px) {
 .portfolio-sidebar .project-info-pop{width:86vw}
 .portfolio-sidebar .project-info-pop .project-inner-info .cm-pot-img-wrapper{width:60%;margin-right:2%;margin-left:0}

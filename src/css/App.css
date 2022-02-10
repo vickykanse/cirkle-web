@@ -193,7 +193,7 @@ img{max-width:100%}
 .roll-hover-btn{font-size:12px!important;line-height:20px;height:20px;letter-spacing:2px!important;text-transform:uppercase;display:inline-block;position:relative;overflow:hidden;color:#121212}
 .hero .container .hero-con{margin:0 auto;width:100%;position:relative;height:max-content;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
 .hello-gif{max-width:50%;position:absolute;top:50%;-webkit-transform:translate(0%,-50%);transform:translate(0%,-50%);right:0}
-.hero{background-color:#121212;overflow:hidden}
+.hero{background-color:#121212;overflow:hidden;height: 100vh;}
 .header-top .logo a svg path{fill:#fff}
 .fp-viewing-1 .header-top .logo a svg path{fill:#000}
 .hero-con{margin:0 auto;width:100%;position:relative;height:max-content;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}
@@ -219,7 +219,7 @@ figure svg > *{fill:#5cdb95;stroke:#028869;stroke-width:1.8px}
 .scroll .circle{position:relative;left:0;width:4px;height:4px;background:#fff;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;-webkit-animation:bounce 2s 2s infinite;animation:bounce 2s 2s infinite;text-align:center;display:block;margin:0 auto}
 .scroll .arrow{margin-top:10px;-webkit-animation:bounce 2s 2.03s infinite;animation:bounce 2s 2.03s infinite;margin-left:7px}
 .scroll .arrow .arrow-inner{width:10px;height:10px;border:1.5px solid #fff;border-top:0;border-left:0;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
-.home-about{overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center}
+.home-about{overflow:hidden;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;height: 100vh;}
 .our-services{background:#121212;position:relative;overflow:hidden}
 .fp-viewing-0 .cm_side_logo,.fp-viewing-5 .cm_side_logo{opacity:0;visibility:hidden;height:0}
 .fp-viewing-0 .cm_side_logo,.fp-viewing-2 .cm_side_logo,.fp-viewing-4 .cm_side_logo{color:#fff;border-right:1px solid #444}

@@ -16,7 +16,7 @@ const Startchat = React.lazy(() => import('../Components/startchatcomponent'));
 class index extends Component {
 
     componentDidMount() {
-        document.body.classList.add("mainpage");
+        // document.body.classList.add("mainpage");
         let headertop = document.querySelector('.header-top');
         headertop.classList.remove("sticky");
     }

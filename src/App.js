@@ -15,14 +15,15 @@ import Uiux from './pages/uiux'
 import WebsiteDevlopment from './pages/webdev'
 import Team from './pages/team'
 import Portfolio from './pages/portfolio'
-import { Switch, Route } from 'react-router-dom';
+
+// import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect, useEffect } from "react-router";
 
 function App() {
 
   return (
     <div className="App">
       <Header></Header>
-
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/Company" component={Company} />
@@ -38,7 +39,7 @@ function App() {
         <Route exact path="/Portfolio" component={Portfolio} />
         <Route exact path="/WebsiteDevlopment" component={WebsiteDevlopment} />
 
-      </Switch>
+        </Switch>
 
     </div>
   );

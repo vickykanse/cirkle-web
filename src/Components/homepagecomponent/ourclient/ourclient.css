@@ -1,4 +1,4 @@
-.cm_our_clients{background:#121212;overflow:hidden;position:relative}
+.cm_our_clients{background:#121212;overflow:hidden;position:relative;height: 100vh;}
 .cm_our_clients .v-lines .v-lines-one,.cm_our_clients .v-lines .v-lines-two,.cm_our_clients .v-lines .v-lines-three,.cm_our_clients .v-lines .v-lines-four,.cm_our_clients .v-lines-five{position:absolute;width:1px;height:100%;background:#444;top:0}
 .cm_our_clients .v-lines-one{left:0}
 .cm_our_clients .v-lines-two{left:25%}

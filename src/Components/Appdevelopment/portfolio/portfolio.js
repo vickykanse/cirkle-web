@@ -3,14 +3,10 @@ import "./portfolio.css";
 import Hb from "../../../images/appdevelopment/hb-logo.png"
 import iphonex from "../../../images/appdevelopment/iphone-x-wireframe-design-for-illustrator2.png"
 import Hearbasker from "../../../images/appdevelopment/heaer-basker.png"
-import oval from "../../../images/appdevelopment/oval-1.svg"
-import s1 from "../../../images/appdevelopment/shape-1.svg"
 import s2 from "../../../images/appdevelopment/shape-55.svg"
 import s3 from "../../../images/appdevelopment/shape-56.svg"
 import s4 from "../../../images/appdevelopment/shape-57.svg"
-import s5 from "../../../images/appdevelopment/shape-58.svg"
 import s6 from "../../../images/appdevelopment/shape-59.svg"
-import s7 from "../../../images/appdevelopment/shape-60.svg"
 import s8 from "../../../images/appdevelopment/shape-61.svg"
 import s9 from "../../../images/appdevelopment/shape-62.svg"
 import robote from "../../../images/appdevelopment/robot.svg"
@@ -97,14 +93,10 @@ class portfolio extends Component {
                         <div className="container">
                             <div className="service-block">
                                 <div className="svgshapes">
-                                    <img src={oval} alt="icon" className="oval-one" />
-                                    <img src={s1} alt="icon" className="shape-three" />
                                     <img src={s2} alt="icon" className="shape-four" />
                                     <img src={s3} alt="icon" className="shape-five" />
                                     <img src={s4} alt="icon" className="shape-six" />
-                                    <img src={s5} alt="icon" className="shape-seven" />
                                     <img src={s6} alt="icon" className="shape-eight" />
-                                    <img src={s7} alt="icon" className="shape-nine" />
                                     <img src={s8} alt="icon" className="shape-ten" />
                                     <img src={s9} alt="icon" className="shape-eleven" />
                                 </div>

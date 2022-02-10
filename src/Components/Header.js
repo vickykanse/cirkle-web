@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './header.css';
-import ReactFullpage from '@fullpage/react-fullpage';
 import remove from '../images/e-remove.svg'
-import MenuToggle from '../images/toggle-btn.svg'
+// import MenuToggle from '../images/toggle-btn.svg'
 // import HeaderContent from './header/Header_content'
 class Header extends Component {
 
@@ -65,7 +64,7 @@ class Header extends Component {
 
                     </div>
                     <div className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
-                        <span className="close-menu" onClick={this.handleToggle}><img src={remove} /></span>
+                        <span className="close-menu" onClick={this.handleToggle}><img src={remove} alt=""/></span>
                         <div className="cm_menu_bg">
                             <div className="cm_menu__bgStrips">
                                 <div className="bgStrips__strip">
@@ -129,7 +128,7 @@ class Header extends Component {
                                             <rect width="20%" height="100%" className="anim-shape"></rect>
                                         </g>
                                         {/* <!-- Transparent copy of text to keep patterned text selectable --> */}
-                                        <use xlink href="#s-text" className="text--transparent"></use>
+                                        {/* <use xlink href="#s-text" className="text--transparent"></use> */}
                                     </svg>
                                 </div>
                             </div>
