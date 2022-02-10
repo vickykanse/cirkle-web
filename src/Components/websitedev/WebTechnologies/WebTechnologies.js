@@ -280,7 +280,7 @@ class WebTechnologies extends Component {
                                 <Pannel>
                                             <div className="website-dev-tools-tabs-inner">
                                                 <div className="cat-img cframe">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" enableBackground="new 0 0 64 64" height="512px" viewBox="0 0 64 64" width="512px" className="">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_5" enable-background="new 0 0 64 64" height="512px" viewBox="0 0 64 64" width="512px" className="">
                                                         <g>
                                                             <g>
                                                                 <g>

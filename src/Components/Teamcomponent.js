@@ -1,5 +1,4 @@
 import React, { Component, lazy, Suspense } from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import '../Components/Teamcomponent/team.css'
 import './startchatcomponent/startchat.css';
 
@@ -46,7 +45,7 @@ class Teamcomponent extends Component {
         return (
             <>
 
-                 <Suspense fallback={<><div id="overlay"></div><span className="loader"><span className="loader-inner"></span></span></>}>
+                 <Suspense fallback={<><div id="overlay"></div><span class="loader"><span class="loader-inner"></span></span></>}>
                         <Startchat></Startchat>
                         <Firstsection />
                         <Crew />
@@ -59,11 +58,11 @@ class Teamcomponent extends Component {
                         >
                             <div className="big-letter-career">
                                 <div className="center-botton">
-                                    <NavLink to="/Career"  className="btn btn_submit">
+                                    <a href="career.html" className="btn btn_submit" type="submit">
                                         <div className="cm_btn_hover">
                                             <span>All Jobs</span>
                                         </div>
-                                    </NavLink>
+                                    </a>
                                 </div>
                                 <h5>Careers</h5>
                             </div>

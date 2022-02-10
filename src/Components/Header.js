@@ -129,7 +129,7 @@ class Header extends Component {
                                             <rect width="20%" height="100%" className="anim-shape"></rect>
                                         </g>
                                         {/* <!-- Transparent copy of text to keep patterned text selectable --> */}
-                                        <use  className="text--transparent"></use>
+                                        <use xlink href="#s-text" className="text--transparent"></use>
                                     </svg>
                                 </div>
                             </div>

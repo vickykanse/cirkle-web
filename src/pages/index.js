@@ -37,7 +37,7 @@ class index extends Component {
         return (
             <>
                 {/* <Header></Header> */}
-                <Suspense fallback={<><div id="overlay"></div><span className="loader"><span className="loader-inner"></span></span></>}>
+                <Suspense fallback={<><div id="overlay"></div><span class="loader"><span class="loader-inner"></span></span></>}>
                     <Leftsaidelogo />
                     <Startchat />
                     <Homepage  ></Homepage>

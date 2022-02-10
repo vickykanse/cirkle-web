@@ -31,7 +31,7 @@ class portfoliomodal extends Component {
                                     <form className="form-signin">
                                         <div className="form-label-group">
                                             <input type="text" id="inputName" className="form-control" placeholder="Name"
-                                                required="" autoFocus="" />
+                                                required="" autofocus="" />
                                             <div className="input_line"></div>
                                             <label for="inputName">Name</label>
                                         </div>
@@ -49,7 +49,7 @@ class portfoliomodal extends Component {
                                         </div>
                                         <div className="form-label-group">
                                             <textarea type="text" className="form-control" placeholder="Message" required=""
-                                                tabIndex="4"></textarea>
+                                                tabindex="4"></textarea>
                                             <div className="input_line"></div>
                                             <label>Message</label>
                                         </div>
@@ -81,7 +81,7 @@ class portfoliomodal extends Component {
                         <form className="form-signin">
                             <div className="form-label-group">
                                 <input type="text" id="inputName" className="form-control" placeholder="Name" required=""
-                                    autoFocus="" />
+                                    autofocus="" />
                                 <div className="input_line"></div>
                                 <label for="inputName">Name</label>
                             </div>
@@ -97,7 +97,7 @@ class portfoliomodal extends Component {
                             </div>
                             <div className="form-label-group">
                                 <textarea type="text" className="form-control" placeholder="Message" required=""
-                                    tabIndex="4"></textarea>
+                                    tabindex="4"></textarea>
                                 <div className="input_line"></div>
                                 <label>Message</label>
                             </div>

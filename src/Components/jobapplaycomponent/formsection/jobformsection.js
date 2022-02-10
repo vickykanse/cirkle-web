@@ -91,7 +91,7 @@ class jobformsection extends Component {
                                     </div>
                                     <div className="form-label-group">
                                         <textarea type="text" className="form-control" placeholder="Message" required=""
-                                            tabIndex="4"></textarea>
+                                            tabindex="4"></textarea>
                                         <div className="input_line"></div>
                                         <label>Message</label>
                                     </div>

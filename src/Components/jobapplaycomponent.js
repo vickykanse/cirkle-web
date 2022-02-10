@@ -12,7 +12,7 @@ class jobapplaycomponent extends Component {
         return (
             <>
                
-                <Suspense fallback={<><div id="overlay"></div><span className="loader"><span className="loader-inner"></span></span></>}>
+                <Suspense fallback={<><div id="overlay"></div><span class="loader"><span class="loader-inner"></span></span></>}>
                 <Startchat></Startchat>
                 <Firstsection />
                 <Fromsection />
@@ -25,4 +25,4 @@ class jobapplaycomponent extends Component {
     }
 }
 
-export default jobapplaycomponent; 
+export default jobapplaycomponent;

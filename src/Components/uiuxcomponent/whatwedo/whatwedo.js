@@ -10,7 +10,7 @@ class whatwedo extends Component {
                 <div className="inner_content_wrap">
                     <div className="cm-section-title text-center anim-title ">
                         <div className="aos" data-aos="fade-right">
-                            <h2 className="what-we-do">What We Do</h2>
+                            <h2 class="what-we-do">What We Do</h2>
                         </div>
                         <div className="seperator aos" data-aos="fade-left"></div>
                         <span>Here’s what we do to make your product stunning:</span>

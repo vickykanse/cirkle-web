@@ -28,7 +28,7 @@ class vacancy extends Component {
                     <div className="cm-career-footer row no-gutters">
                         <div className="cm-address">
                             <p>
-                                <svg enableBackground="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml space="preserve" xmlns="http://www.w3.org/2000/svg">
+                                <svg enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml space="preserve" xmlns="http://www.w3.org/2000/svg">
                                         <path d="m256 0c-107.52 0-195 87.48-195 195 0 42.55 13.44 82.98 38.9 116.9l144.08 194.05c0.36 0.47 0.91 0.65 1.31 1.07 7.2 7.71 17.59 5.77 22.72-1.07 41.49-55.36 117.54-158.75 146.78-197.75 0 0 0.01-0.03 0.02-0.05l0.18-0.24c23.56-33.1 36.01-72.14 36.01-112.91 0-107.52-87.48-195-195-195zm0 300.2c-57.89 0-105.2-47.31-105.2-105.2s47.31-105.2 105.2-105.2 105.2 47.31 105.2 105.2-47.31 105.2-105.2 105.2z"/>
                                 </svg> Cirkle Studio
                                 

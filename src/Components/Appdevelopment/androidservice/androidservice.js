@@ -13,7 +13,7 @@ class androidservice extends Component {
                 <div className="inner_content_wrap">
                     <div className="cm-section-title anim-title text-center">
                         <div className="aos" data-aos="fade-left">
-                            <h2 className="androind-app-title">Android App Services</h2>
+                            <h2 class="androind-app-title">Android App Services</h2>
                         </div>
                         <div className="seperator aos" data-aos="fade-up"></div>
                     </div>
@@ -32,7 +32,7 @@ class androidservice extends Component {
                         <div className="col-sm-3 col-xs-6">
                             <div className="features-item items2">
                                 <div className="r-icon icon2">
-                                     <svg enableBackground="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml space="preserve" xmlns="http://www.w3.org/2000/svg">
+                                     <svg enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" xml space="preserve" xmlns="http://www.w3.org/2000/svg">
                                           <path fill="#5cdb95" d="m406 332c-29.641 0-55.761 14.581-72.167 36.755l-141.84-72.631c2.355-8.027 4.01-16.346 4.01-25.124 0-11.906-2.441-23.225-6.658-33.636l148.44-89.328c16.52 19.388 40.802 31.964 68.213 31.964 49.629 0 90-40.371 90-90s-40.371-90-90-90-90 40.371-90 90c0 11.437 2.355 22.286 6.262 32.358l-148.89 89.59c-16.506-18.812-40.438-30.948-67.375-30.948-49.629 0-90 40.371-90 90s40.371 90 90 90c30.13 0 56.691-15.009 73.035-37.806l141.38 72.395c-2.604 8.406-4.411 17.161-4.411 26.411 0 49.629 40.371 90 90 90s90-40.371 90-90-40.371-90-90-90z"/>	
                                      </svg>
                                 </div>

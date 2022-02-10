@@ -42,7 +42,7 @@ class Findus extends Component {
                     </a>
                         <a target="_blank" rel="noreferrer" href="https://dribbble.com/cirklestudio" className="aos"
                             data-aos="fade-up" data-aos-delay="2s">
-                            <svg xmlns="http://www.w3.org/2000/svg" id="regular" enableBackground="new 0 0 24 24"
+                            <svg xmlns="http://www.w3.org/2000/svg" id="regular" enable-background="new 0 0 24 24"
                                 height="512px" viewBox="0 0 24 24" width="512px">
                                 <g>
                                     <path

@@ -18,7 +18,7 @@ class uiuxcomponent extends Component {
     render() {
         return (
             <>
-               <Suspense fallback={<><div id="overlay"></div><span className="loader"><span className="loader-inner"></span></span></>}>
+               <Suspense fallback={<><div id="overlay"></div><span class="loader"><span class="loader-inner"></span></span></>}>
                     <Startchat></Startchat>
                         <Firstsection />
                         <Whatwedo />

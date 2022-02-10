@@ -9,7 +9,6 @@ import img5 from '../images/group/4.jpg';
 
 const Firstsection = React.lazy(() => import('./careercomponent/firstsection/firstsection'));
 const Vacancy = React.lazy(() => import('./careercomponent/Vacancy/vacancy'));
-const Careerlist = React.lazy(() => import('./careercomponent/careerlist/careerlist'));
 const Hireprocess = React.lazy(() => import('./careercomponent/Hiringprocess/Hiringprocess'));
 const Oursocialbenifits = React.lazy(() => import('./careercomponent/oursocialbenefits/oursocialbenefits'));
 const Perks = React.lazy(() => import('./careercomponent/Perks/Perks'));
@@ -17,6 +16,7 @@ const Whyus = React.lazy(() => import('./careercomponent/whyus/whyus'));
 const Companylife = React.lazy(() => import('../Components/companypagecomponent/companylife/companylife'));
 const Footer = React.lazy(() => import('../Components/footer/footer'));
 const Startchat = React.lazy(() => import('./startchatcomponent'));
+
 class career extends Component {
     render() {
         const vacancy = [
@@ -46,8 +46,8 @@ class career extends Component {
             },
         ]
         return (
-            <> 
-             <Suspense fallback={<><div id="overlay"></div><span className="loader"><span className="loader-inner"></span></span></>}>
+            <>
+             <Suspense fallback={<><div id="overlay"></div><span class="loader"><span class="loader-inner"></span></span></>}>
                 <Startchat></Startchat>
                 <Firstsection></Firstsection>
                 <Vacancy
@@ -55,8 +55,6 @@ class career extends Component {
                     subtitle="We Have Challenging Projects For Gifted Professionals. Let’s Create Great Products Together!"
                     vacancybox={vacancy}
                 ></Vacancy>
-                <Careerlist></Careerlist>
-             
                 <Hireprocess></Hireprocess>
                 <Oursocialbenifits></Oursocialbenifits>
                 <Perks></Perks>
@@ -66,6 +64,8 @@ class career extends Component {
                     <Footer></Footer>
                 </footer>
             </Suspense>
+               
+
             </>
         );
     }
