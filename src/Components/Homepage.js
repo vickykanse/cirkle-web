@@ -14,13 +14,20 @@ import Footer from './footer/footer';
 
 
 class Homepage extends Component {
-  
+    onLeave(origin, destination, direction) {
+        console.log("Leaving section " + origin.index);
+      }
+      afterLoad(origin, destination, direction) {
+        console.log("After load: " + destination.index);
+      }
     render() {
         // const anchors = ["0", "1", "2", "3", "4", "5"];
       return (
         <ReactFullpage
         licenseKey={"YOUR_LICENSE_KEY"}
         scrollOverflow={true}
+        onLeave={this.onLeave.bind(this)}
+        afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
           return (
             <div id="fullpage-wrapper">
