@@ -37,7 +37,7 @@ class Header extends Component {
                                 <ul>
 
                                     <li>
-                                        <a href="javascript" className="roll-hover-btn">
+                                        <a  className="roll-hover-btn">
                                             <span className="roll-hover-label">MENU</span>
                                             <span className="roll-hover-label roll-hover-label-active">MENU</span>
                                         </a>

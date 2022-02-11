@@ -26,12 +26,12 @@ class Homepage extends Component {
             <div id="fullpage-wrapper">
         <div className="hero section fp-section-0">
             <Section1 />
-            {/* <button className="scroll" onClick={() => fullpageApi.moveSectionDown()}>
+            <button className="scroll" onClick={() => fullpageApi.moveSectionDown()}>
                 <div className="circle"></div>
                 <div className="arrow">
                     <div className="arrow-inner"></div>
                 </div>
-            </button> */}
+            </button>
         </div>
         
         <section className="section home-about fp-section-1">
