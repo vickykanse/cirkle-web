@@ -51,82 +51,82 @@ class Trusted extends Component {
                             <h4>Trusted by</h4>
                             <div className="cm-td-logo-wrapper">
                                 <div className="cm-client-site-img">
-                                    <a href="https://www.orthofeet.com/" target="_blank">
+                                    <a href="https://www.orthofeet.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={orthfeet} alt="Orth Feet" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://tastegreece.co.nz/" target="_blank">
+                                    <a href="https://tastegreece.co.nz/" target="_blank" rel="noopener noreferrer">
                                         <img src={tg} alt="Fempower-beauty" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://fortressofinca.com/" target="_blank">
+                                    <a href="https://fortressofinca.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={black} alt="fortressofinca" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://missdiva.co.uk/" target="_blank">
+                                    <a href="https://missdiva.co.uk/" target="_blank" rel="noopener noreferrer">
                                         <img src={missdiva} alt="miss diva" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://betterorganicskincare.com/" target="_blank">
+                                    <a href="https://betterorganicskincare.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={bos} alt="bos" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://www.xvida.com/" target="_blank">
+                                    <a href="https://www.xvida.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={xvidia} alt="Xvida" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="http://www.tapiabrothers.com/" target="_blank">
+                                    <a href="http://www.tapiabrothers.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={Topia} alt="tapiabrothers" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://rugstation.com.au/" target="_blank">
+                                    <a href="https://rugstation.com.au/" target="_blank" rel="noopener noreferrer">
                                         <img src={Rug} alt="RUG Station" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://www.bombshellsportswear.com/" target="_blank">
+                                    <a href="https://www.bombshellsportswear.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={bomb} alt="Bomb shell" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://tenzotea.co/" target="_blank">
+                                    <a href="https://tenzotea.co/" target="_blank" rel="noopener noreferrer">
                                         <img src={tenzo} alt="Tenzo tea" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://modelsmoothskin.com/" target="_blank">
+                                    <a href="https://modelsmoothskin.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={model} alt="modalsmoothskin" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://porteavie.com/" target="_blank">
+                                    <a href="https://porteavie.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={porte} alt="porteavie" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://www.trupawsco.com/" target="_blank">
+                                    <a href="https://www.trupawsco.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={trup} alt="trupaws" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://ezyvision.co.nz/" target="_blank">
+                                    <a href="https://ezyvision.co.nz/" target="_blank" rel="noopener noreferrer">
                                         <img src={vision} alt="trupaws" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://rockthatjob.com/" target="_blank">
+                                    <a href="https://rockthatjob.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={rock} alt="trupaws" />
                                     </a>
                                 </div>
                                 <div className="cm-client-site-img">
-                                    <a href="https://www.thedateroom.com/" target="_blank">
+                                    <a href="https://www.thedateroom.com/" target="_blank" rel="noopener noreferrer">
                                         <img src={room} alt="trupaws" />
                                     </a>
                                 </div>

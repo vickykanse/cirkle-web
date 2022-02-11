@@ -77,7 +77,7 @@ class portfolio extends Component {
                                 </div>
                                 <ul className="app-download-link-wraper aos" data-aos="fade-up">
                                     <li>
-                                        <a href="https://play.google.com/store/apps/details?id=com.healerbasker&hl=en_IN" target="_blank"><img src={robote} /></a>
+                                        <a href="https://play.google.com/store/apps/details?id=com.healerbasker&hl=en_IN" target="_blank" rel="noopener noreferrer"><img src={robote} alt=""/></a>
                                     </li>
                                     {/* <!-- <li>
                                             <a href="portfolio"><img src="img/brand.svg"></a>
@@ -93,12 +93,12 @@ class portfolio extends Component {
                         <div className="container">
                             <div className="service-block">
                                 <div className="svgshapes">
-                                    <img src={s2} alt="icon" className="shape-four" />
-                                    <img src={s3} alt="icon" className="shape-five" />
-                                    <img src={s4} alt="icon" className="shape-six" />
-                                    <img src={s6} alt="icon" className="shape-eight" />
-                                    <img src={s8} alt="icon" className="shape-ten" />
-                                    <img src={s9} alt="icon" className="shape-eleven" />
+                                    <img src={s2} alt="" className="shape-four" />
+                                    <img src={s3} alt="" className="shape-five" />
+                                    <img src={s4} alt="" className="shape-six" />
+                                    <img src={s6} alt="" className="shape-eight" />
+                                    <img src={s8} alt="" className="shape-ten" />
+                                    <img src={s9} alt="" className="shape-eleven" />
                                 </div>
                             </div>
                             <div className="portfolio-left">
@@ -117,7 +117,7 @@ class portfolio extends Component {
                                     </div>
                                     <ul className="app-download-link-wraper aos" data-aos="fade-up">
                                         <li>
-                                            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.rns.buddyvpnprov&hl=en_IN" className="app-download-link2">
+                                            <a target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.rns.buddyvpnprov&hl=en_IN" className="app-download-link2">
                                                 <img src={robote} />
                                             </a>
                                         </li>
@@ -220,7 +220,7 @@ class portfolio extends Component {
                                 </div>
                                 <ul className="app-download-link-wraper aos" data-aos="fade-up">
                                     <li>
-                                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.cirkle.videostatus&hl=en" className="app-download-link3"><img src={robote} /></a>
+                                        <a rel="noopener noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=com.cirkle.videostatus&hl=en" className="app-download-link3"><img src={robote} alt=""/></a>
                                     </li>
                                     {/* <!-- <li>
                                             <a target="_blank" href="#" className="app-download-link3"><img src="img/brand.svg"></a>

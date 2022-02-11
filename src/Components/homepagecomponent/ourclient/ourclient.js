@@ -91,7 +91,7 @@ class ourclient extends Component {
         const ourclients = data.map(dataIn => {
             return (
                  <div className="cl-logo-wrapper">
-                        <a href={dataIn.link} target="_blank">
+                        <a href={dataIn.link} target="_blank" rel="noopener noreferrer">
                             <img src={dataIn.img} alt="Client Logo" />
                         </a>
                  </div>

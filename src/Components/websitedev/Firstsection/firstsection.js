@@ -6,7 +6,7 @@ class firstsection extends Component {
         return (
             <section data-header-group="white_header" className="cm_main_header_section black-bg-section">
                 <div className="web-dev-banner-anim">
-                    <img src={hero} />
+                    <img src={hero} alt=""/>
                 </div>
                 <div className="cm-header-text">
                     <div className="cm-header-text-wrapper">

@@ -61,7 +61,7 @@ class Hiringprocess extends Component {
                             <ul className="cm-hr-process-steps slick-mobile row">
                                  <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro1} />
+                                            <img src={pro1}  alt=""/>
                                             <h4>SEND CV</h4>
                                             <p>Send us your application with a detailed CV and a short cover letter outlining your
                                             background.</p>
@@ -69,7 +69,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro2} />
+                                            <img src={pro2} alt=""/>
                                             <h4>FIRST CONTACT</h4>
                                             <p>Our HR specialist will contact you and invite you to a first meeting. We’ll introduce you
                                             to the role you’re applying for and determine whether our work culture is a good fit for
@@ -78,7 +78,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro3} />
+                                            <img src={pro3} alt=""/>
                                             <h4>EXPERT INTERVIEW</h4>
                                             <p>You’ll meet one of our team members. During this talk, you’ll discuss the test task and
                                             other relevant fields of expertise in detail.</p>
@@ -86,7 +86,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro4} />
+                                            <img src={pro4} alt=""/>
                                             <h4>TEST TASK</h4>
                                             <p>We’ll ask you to do a specific test task y to verify your skills and approach to the
                                             working process.</p>
@@ -94,7 +94,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro1} />
+                                            <img src={pro1} alt=""/>
                                             <h4>WELCOME ON BOARD!</h4>
                                             <p>Once we’re sure we’re a match for each other, we’ll make you an offer.</p>
                                         </div>
@@ -104,7 +104,7 @@ class Hiringprocess extends Component {
                             <Slider {...settings}>
                                         <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro1} />
+                                            <img src={pro1} alt=""/>
                                             <h4>SEND CV</h4>
                                             <p>Send us your application with a detailed CV and a short cover letter outlining your
                                             background.</p>
@@ -112,7 +112,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro2} />
+                                            <img src={pro2} alt=""/>
                                             <h4>FIRST CONTACT</h4>
                                             <p>Our HR specialist will contact you and invite you to a first meeting. We’ll introduce you
                                             to the role you’re applying for and determine whether our work culture is a good fit for
@@ -121,7 +121,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro3} />
+                                            <img src={pro3} alt=""/>
                                             <h4>EXPERT INTERVIEW</h4>
                                             <p>You’ll meet one of our team members. During this talk, you’ll discuss the test task and
                                             other relevant fields of expertise in detail.</p>
@@ -129,7 +129,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro4} />
+                                            <img src={pro4} alt=""/>
                                             <h4>TEST TASK</h4>
                                             <p>We’ll ask you to do a specific test task y to verify your skills and approach to the
                                             working process.</p>
@@ -137,7 +137,7 @@ class Hiringprocess extends Component {
                                     </li>
                                     <li>
                                         <div className="cm-hr-pro-box">
-                                            <img src={pro1} />
+                                            <img src={pro1} alt=""/>
                                             <h4>WELCOME ON BOARD!</h4>
                                             <p>Once we’re sure we’re a match for each other, we’ll make you an offer.</p>
                                         </div>

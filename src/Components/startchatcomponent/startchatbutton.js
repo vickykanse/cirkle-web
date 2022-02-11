@@ -6,7 +6,7 @@ class startchatbutton extends Component {
         return (
             <>
              <div className="cm_start_project_btn lets-start-btn" onClick={this.props.onClick}>
-                <img src={chat}/>
+                <img src={chat} alt=""/>
                 <label>Start Chat</label>
              </div> 
              <div className="cm_side_logo cm_right_side_bar" onClick={this.props.onClick}>

@@ -78,7 +78,7 @@ class profile extends Component {
                        {data.projects.map((data, key) => (
                     
                             <div key={data.id} className="project-image">
-                                 <img src={data.imgs} alt="Portfolio Image" />
+                                 <img src={data.imgs} alt="Portfolio"  />
                             </div>
                        ))}
                   </Modal>

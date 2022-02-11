@@ -4,7 +4,7 @@ class firstsection extends Component {
     render() {
         return (
             <section data-header-group="white_header" className="qa-banner-section cm_main_header_section">
-                <img src={orignal} className="qa-center" />
+                <img src={orignal} className="qa-center" alt=""/>
                 <div className="cm-header-text">
                     <div className="cm-header-text-wrapper">
                         <h3 data-aos="fade-down">We provide remarkable QA testing for web and mobile applications</h3>
